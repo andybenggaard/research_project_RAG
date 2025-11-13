@@ -1,13 +1,13 @@
-chromadb==0.5.5
-pydantic>=2.7
-python-dotenv>=1.0
-tqdm>=4.66
-pdfminer.six==20231228
-pypdf>=4.2
-unstructured==0.14.6
-tabulate>=0.9
-numpy>=1.26
-pandas>=2.2
-requests>=2.32
-rapidfuzz>=3.9
+chromadb
+pydantic
+python-dotenv
+tqdm
+pdfminer.six
+pypdf
+unstructured
+tabulate
+numpy
+pandas
+requests
+rapidfuzz
 
