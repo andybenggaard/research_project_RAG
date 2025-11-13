@@ -1,0 +1,5 @@
+# from repo root, with .venv activated and .env present
+python main.py \
+  --company "IPCC AR6 WGIII" \
+  --year 2022 \
+  --query "Find sentences mentioning: 2019 global GHG emissions, GtCO2-eq, sector shares, mitigation potential, and any 'high confidence' statements."

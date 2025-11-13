@@ -1,0 +1,84 @@
+{
+  "TS4.1": {
+    "text": "Pathways accelerating action compared to current NDCs \u2013 that reduce annual GHG emissions to 47 (38\u201351) GtCO2-eq by 2030 ...",
+    "confidence": "high"
+  },
+  "TS7": {
+    "text": "Accelerating climate mitigation in the context of sustainable development involves not only expediting the pace of change but also addressing the underlying drivers of vulnerability and emissions.",
+    "confidence": "high"
+  },
+  "Box TS.2": {
+    "text": "All metrics have limitations and uncertainties, given that they simplify the complexity of the physical climate system and its response to past and future GHG emissions.",
+    "confidence": "high"
+  },
+  "TS32": {
+    "text": "The feasibility of mitigation scenarios.",
+    "confidence": "high",
+    "figure": true
+  },
+  "company": "IPCC AR6 WGIII",
+  "year": 2022,
+  "facts": [
+    {
+      "page": 13,
+      "text": "59\nTS\nTechnical Summary\nTS.3\t\nEmission Trends and Drivers\nGlobal net anthropogenic GHG emissions during the decade \n2010\u20132019 were higher than any previous time in human \nhistory (high confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "Since 2010, GHG emissions have \ncontinued to grow reaching 59 \u00b1 6.6 GtCO2-eq in 2019,4 but the \naverage annual growth in the last decade (1.3%, 2010\u20132019) \nwas lower than in the previous decade (2.1%, 2000\u20132009) (high \nconfidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "Average annual GHG emissions were 56 GtCO2-eq yr\u2009\u20131 \nfor 2010\u20132019 (the highest decadal average on record) growing by \nabout 9.1 GtCO2-eq yr\u2009\u20131 from the previous decade (2000\u20132009) (high \nconfidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "{Cross-Chapter Box 2, Annex II.II.8}\n5\t\nIn 2019, CO2 from fossil fuel and industry (FFI) was 38 \u00b1 3.0 Gt; CO2 from net land use, land-use change and forestry (LULUCF) was 6.6 \u00b1 4.6 Gt.",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "The average \nannual emission levels of the last decade (2010\u20132019) were hi",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "The single-year declines in emissions following major economic and geopolitical events are shown, as well as the decline recorded in five different \ndatasets for emissions in 2020 compared to 2019.",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "Panel (b) depicts the perturbation of daily carbon emissions in 2020 compared to 2019, showing the impact of \nCOVID-19 lockdown policies.",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "{Figure\u00a02.6}\nCumulative net CO2 emissions over the last decade (2010\u20132019) \nare about the same size as the remaining carbon budget to \nlimit warming to 1.5\u00b0C (>67%) (medium confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "62% of \ntotal cumulative CO2 emissions from 1850 to 2019 occurred since \n1970 (1500 \u00b1 140 GtCO2), about 43% since 1990 (1000 \u00b1 90 GtCO2), \nand about 17%",
+      "confidence": "medium"
+    },
+    {
+      "page": 33,
+      "text": "Modelled GHG emissions in 2019: \n55 [53\u201358]\u00a0GtC",
+      "confidence": "medium"
+    },
+    {
+      "page": 50,
+      "text": "96\nTS\nTechnical Summary\nThe global share of future urban GHG emissions is expected to \nincrease through 2050 with moderate to low mitigation efforts \ndue to growth trends in population, urban land expansion, \nand infrastructure and service demands, but the extent of the \nincrease depends on the scenario and the scale and timing \nof urban mitigation action (medium confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 50,
+      "text": "In modelled \nscenarios, global consumption-based urban CO2 and CH4 emissions \nare projected to rise from 29 GtCO2-eq in 2020 to 34 GtCO2-eq in \n2050 with moderate mitigation efforts (intermediate GHG emissions, \nSSP2\u20114.5), and up to 40 GtCO2-eq in 2050 with low mitigation efforts \n(high GHG emissions, SSP 3-7.0).",
+      "confidence": "medium"
+    }
+  ],
+  "raw": "fallback_regex_miner"
+}

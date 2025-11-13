@@ -1,0 +1,67 @@
+{
+  "company": "IPCC AR6 WGIII",
+  "year": 2022,
+  "facts": [
+    {
+      "page": 15,
+      "text": "The single-year declines in emissions following major economic and geopolitical events are shown, as well as the decline recorded in five different \ndatasets for emissions in 2020 compared to 2019.",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "Panel (b) depicts the perturbation of daily carbon emissions in 2020 compared to 2019, showing the impact of \nCOVID-19 lockdown policies.",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "{Figure\u00a02.6}\nCumulative net CO2 emissions over the last decade (2010\u20132019) \nare about the same size as the remaining carbon budget to \nlimit warming to 1.5\u00b0C (>67%) (medium confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 15,
+      "text": "62% of \ntotal cumulative CO2 emissions from 1850 to 2019 occurred since \n1970 (1500 \u00b1 140 GtCO2), about 43% since 1990 (1000 \u00b1 90 GtCO2), \nand about 17%",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "59\nTS\nTechnical Summary\nTS.3\t\nEmission Trends and Drivers\nGlobal net anthropogenic GHG emissions during the decade \n2010\u20132019 were higher than any previous time in human \nhistory (high confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "Since 2010, GHG emissions have \ncontinued to grow reaching 59 \u00b1 6.6 GtCO2-eq in 2019,4 but the \naverage annual growth in the last decade (1.3%, 2010\u20132019) \nwas lower than in the previous decade (2.1%, 2000\u20132009) (high \nconfidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "Average annual GHG emissions were 56 GtCO2-eq yr\u2009\u20131 \nfor 2010\u20132019 (the highest decadal average on record) growing by \nabout 9.1 GtCO2-eq yr\u2009\u20131 from the previous decade (2000\u20132009) (high \nconfidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "{Cross-Chapter Box 2, Annex II.II.8}\n5\t\nIn 2019, CO2 from fossil fuel and industry (FFI) was 38 \u00b1 3.0 Gt; CO2 from net land use, land-use change and forestry (LULUCF) was 6.6 \u00b1 4.6 Gt.",
+      "confidence": "medium"
+    },
+    {
+      "page": 13,
+      "text": "The average \nannual emission levels of the last decade (2010\u20132019) were hi",
+      "confidence": "medium"
+    },
+    {
+      "page": 54,
+      "text": "100\nTS\nTechnical Summary\nTS.5.4\t\nBuildings\nGlobal GHG emissions from buildings were 12 GtCO2-eq in \n2019, equivalent to 21% of global GHG emissions.",
+      "confidence": "medium"
+    },
+    {
+      "page": 54,
+      "text": "Of this, \n57% (6.8 GtCO2-eq) were indirect emissions from off-site \ngeneration of electricity and heat, 24% (2.9 GtCO2-eq) were \ndirect emissions produced on-site and 18% (2.2 GtCO2-eq) \nwere embodied emissions from the production of cement and \nsteel used in buildings (high confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 54,
+      "text": "Final energy demand from buildings reached \n128\u00a0EJ globally in 2019 (around 31% of global final energy demand), \nand electricity demand from buildings was slightly above 43 EJ \nglobally (around 18% of global electricity demand).",
+      "confidence": "medium"
+    }
+  ],
+  "raw": "fallback_regex_miner"
+}
