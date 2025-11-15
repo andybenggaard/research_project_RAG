@@ -1,61 +1,155 @@
-import requests, subprocess, shlex
-from src.config import OLLAMA_HOST, LLM_MODEL
+# src/llm_ollama.py
+
+"""
+Robust Ollama LLM client with:
+- strict JSON mode
+- retry + repair strategy
+- configurable temperature/max_tokens
+- support for system + user prompts
+- stable for fact extraction pipelines
+"""
+
+import json
+import requests
+import time
+from typing import Dict, Any, Optional, List
+from .config import OLLAMA_HOST, LLM_MODEL
 
 
-def _via_generate(system_prompt: str, user_prompt: str) -> str:
+# -----------------------------------------------------
+# Low-level API call
+# -----------------------------------------------------
+def _ollama_generate(
+    system: str,
+    prompt: str,
+    temperature: float = 0.1,
+    max_tokens: int = 2048,
+) -> str:
+    """
+    Raw call to Ollama generate API with system + user messages.
+    """
     url = f"{OLLAMA_HOST}/api/generate"
-    prompt = f"<s>[SYSTEM]\n{system_prompt}\n[/SYSTEM]\n[USER]\n{user_prompt}\n[/USER]"
     payload = {
         "model": LLM_MODEL,
+        "system": system,
         "prompt": prompt,
+        "temperature": temperature,
+        "num_predict": max_tokens,
         "stream": False,
-        "options": {"temperature": 0},  # deterministic
     }
-    r = requests.post(url, json=payload, timeout=120)
-    if r.status_code in (404, 405):
-        raise FileNotFoundError("generate endpoint not available")
-    r.raise_for_status()
-    return r.json().get("response", "")
+
+    resp = requests.post(url, json=payload, timeout=180)
+
+    if not resp.ok:
+        raise RuntimeError(f"Ollama error {resp.status_code}: {resp.text[:200]}")
+
+    data = resp.json()
+    return data.get("response", "")
 
 
-def _via_chat(system_prompt: str, user_prompt: str) -> str:
-    url = f"{OLLAMA_HOST}/api/chat"
-    payload = {
-        "model": LLM_MODEL,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        "stream": False,
-        "options": {"temperature": 0},  # deterministic
-    }
-    r = requests.post(url, json=payload, timeout=120)
-    if r.status_code in (404, 405):
-        raise FileNotFoundError("chat endpoint not available")
-    r.raise_for_status()
-    data = r.json()
-    # prefer single 'message' if present
-    msg = data.get("message")
-    if isinstance(msg, dict):
-        return msg.get("content", "")
-    # otherwise scan messages
-    for m in reversed(data.get("messages", [])):
-        if m.get("role") == "assistant":
-            return m.get("content", "")
-    return ""
+# -----------------------------------------------------
+# JSON fixing logic
+# -----------------------------------------------------
+def _extract_json_from_text(text: str) -> Optional[Dict]:
+    """
+    Attempts to extract JSON from a messy LLM output.
+    """
+    text = text.strip()
 
-
-def _via_cli(system_prompt: str, user_prompt: str) -> str:
-    combined = f"[SYSTEM]\n{system_prompt}\n[/SYSTEM]\n[USER]\n{user_prompt}\n[/USER]"
-    cmd = f'ollama run {shlex.quote(LLM_MODEL)} {shlex.quote(combined)}'
-    return subprocess.check_output(cmd, shell=True, text=True).strip()
-
-
-def generate(system_prompt: str, user_prompt: str, stream=False) -> str:
+    # First try direct load
     try:
-        return _via_generate(system_prompt, user_prompt)
+        return json.loads(text)
     except Exception:
+        pass
+
+    # Try finding JSON inside text
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end != -1:
         try:
-            return _via_chat(system_prompt, user_prompt)
+            return json.loads(text[start:end + 1])
         except Exception:
-            return _via_cli(system_prompt, user_prompt)
+            return None
+
+    return None
+
+
+def _repair_json(output: str) -> Optional[Dict]:
+    """
+    Attempts to clean common JSON issues.
+    """
+    repaired = output
+    repaired = repaired.replace("\n", " ")
+    repaired = repaired.replace("\t", " ")
+    repaired = repaired.replace("```json", "").replace("```", "")
+
+    # Remove trailing commas
+    repaired = repaired.replace(", }", " }").replace(",]", "]")
+
+    return _extract_json_from_text(repaired)
+
+
+# -----------------------------------------------------
+# High-level "safe generation" with retries
+# -----------------------------------------------------
+def generate_json(
+    system_prompt: str,
+    user_prompt: str,
+    max_retries: int = 4,
+    temperature: float = 0.1,
+) -> Dict[str, Any]:
+    """
+    Sends prompt → ensures valid JSON → repairs automatically → retries if needed.
+    Used by extract_facts.py and recursive verification.
+    """
+    last_err = None
+
+    for attempt in range(1, max_retries + 1):
+
+        try:
+            raw = _ollama_generate(
+                system=system_prompt,
+                prompt=user_prompt,
+                temperature=temperature,
+                max_tokens=4096,
+            )
+
+            # Try direct JSON parse
+            parsed = _extract_json_from_text(raw)
+            if parsed:
+                return parsed
+
+            # Try repair
+            repaired = _repair_json(raw)
+            if repaired:
+                return repaired
+
+            last_err = ValueError("Model returned invalid JSON.")
+            print(f"[WARN] Invalid JSON on attempt {attempt}: {raw[:200]}")
+
+        except Exception as e:
+            last_err = e
+            print(f"[ERROR] Ollama failure on attempt {attempt}: {str(e)[:200]}")
+
+        time.sleep(1.2 * attempt)  # exponential backoff
+
+    # If all fails, raise error (extraction pipeline will handle)
+    raise last_err or RuntimeError("Unknown LLM JSON error")
+
+
+# -----------------------------------------------------
+# Simple text generation (for debugging)
+# -----------------------------------------------------
+def generate_text(
+    system_prompt: str,
+    user_prompt: str,
+    temperature: float = 0.2,
+    max_tokens: int = 1024,
+) -> str:
+    """Plain text mode."""
+    return _ollama_generate(
+        system=system_prompt,
+        prompt=user_prompt,
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )

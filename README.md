@@ -1,9 +1,6 @@
 # 🌱 Compliance RAG Starter (Fully Local, Fully Private)
 
-> **End-to-end local pipeline** to extract grounded, structured facts from technical PDFs—no cloud, no API keys, no data leaks.
-
-Transform sustainability reports, compliance documents, and technical papers into machine-readable facts you can reason about mathematically.
-
+**Target research question** “Can Maersk’s 2030 decarbonization target (e.g. a ~50% improvement in ocean freight carbon intensity and 35% absolute Scope 1 reduction) be verified as fully aligned with ESRS E1-4, which requires companies to set science-based GHG reduction targets for 2030 in their climate transition plans?”
 ---
 
 ## 🎯 What This Does

@@ -1,0 +1,921 @@
+{
+  "company": "Maersk",
+  "year": 2023,
+  "facts": [
+    {
+      "id": "1",
+      "page": 3,
+      "text": "Benchmarks for percentage of fleet using short-term cleaner fuels and lower-carbon technologies (e.g., responsibly sourced biofuels)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 3,
+      "text": "Benchmarks for percentage of existing fleet with efficiency & hybrid retrofits",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 3,
+      "text": "Offering slow steaming options for customers",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 3,
+      "text": "Deduction for scrubber use",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 3,
+      "text": "Deduction for absolute emissions increasing despite commitments",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 3,
+      "text": "Bonus for absolute emissions reduction",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 3,
+      "text": "Publicly support strengthening the level of ambition of the GHG reduction policies",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 4"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 3,
+      "text": "Publicly reject HFO, LNG and false solutions",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 4"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 3,
+      "text": "Advocate for rapid decarbonization through trade organizations",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 4"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 3,
+      "text": "Deduction for advocating for scrubber use",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 4"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 3,
+      "text": "Annual public reporting of fleet metrics, including:",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 3,
+      "text": "\u2022 General climate commitment",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": null,
+      "components": [
+        "Absolute CO2 reduction benchmarks for 2025, 2030 and 2035",
+        "No use of carbon offsets to meet goal",
+        "Net Zero vs. Absolute Zero",
+        "2040 vs. 2050",
+        "Commitment to move freight onto low- and zero-emission vessels (with time-bound targets)",
+        "Set short-term targets for moving increasing volumes of cargo on cleaner ships, i.e., MGO/hybrid-powered vessels, shore power-equipped vessels",
+        "Mentions low- and zero-emission vessels"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 3,
+      "text": "\u2022 Expressions of public support for zero-emission shipping development",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": null,
+      "components": [
+        "Member of Science-Based Target Initiative (a We Mean Business Coalition commitment)",
+        "Getting to Zero (GTZ) Coalition (managed by the Global Maritime Forum, the World Economic Forum)"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 2,
+      "text": "Publicly-stated commitment to reduce/eliminate criteria air pollution (PM, NOX, SOX) from maritime shipping",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 2,
+      "text": "Commitment to converting fleet/ordering newbuilds that are shore power-compatible",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 2,
+      "text": "Commitment to using shore power/ZEV offshore charging stations",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 2,
+      "text": "Publicly commiting to prioritize shore power-ready/green ports",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 2,
+      "text": "Member of corporate initiatives to reduce air pollution (First Movers, Getting to Zero)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 2,
+      "text": "Founding member (First Movers, Getting to Zero)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 2,
+      "text": "Investment in or implementation of ZEV port infrastructure (e.g., bunkering ZE fuels, shore power)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [
+        "Investment in or implementation of ZEV port infrastructure"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 2,
+      "text": "Investment in or implementation of zero-emission offshore charging stations",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [
+        "Investment in or implementation of zero-emission offshore charging stations"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 2,
+      "text": "Implementation of a plan to reduce air pollution and clean air for port communities",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 2,
+      "text": "Public support for policy or regulatory measures to reduce port pollution",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 2,
+      "text": "Partnerships with carriers, ports, and regulators to ZEV infrastructure projects",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 2,
+      "text": "Public disclosure of progress toward criteria air pollution reduction benchmarks broken down by vessel and route",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 2,
+      "text": "Public disclosure of shore power use",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "14",
+      "page": 2,
+      "text": "Commitment to immediate (2023) reductions in GHG emissions from maritime shipping",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "15",
+      "page": 2,
+      "text": "Commitment to switch to readily available cleaner burning fuels",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "16",
+      "page": 2,
+      "text": "Commitment to high efficiency retrofitting and operational measures like slow steaming for vessels",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "17",
+      "page": 2,
+      "text": "Deduction for commitments that require additional information or specifics",
+      "confidence": "low",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 4,
+      "text": "Ships\n\t\t\t\t\t\t\t\t\u2022 Number of orders or leases for new ZEVs and ZEV-ready ships",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Number of orders or leases for new ZEVs and ZEV-ready ships"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 4,
+      "text": "Ships\n\t\t\t\t\t\t\t\t\u2022 Deduction for number of LNG newbuilds or leases",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Deduction for number of LNG newbuilds or leases"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 4,
+      "text": "Ships\n\t\t\t\t\t\t\t\t\u2022 Working with other carriers and/or entering conglomerations/partnerships on the development of ZEV technologies",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Working with other carriers and/or entering conglomerations/partnerships on the development of ZEV technologies"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 4,
+      "text": "Ships\n\t\t\t\t\t\t\t\t\u2022 Working with ports and/or investing financially in ZEV infrastructure and/or shipping corridors",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Working with ports and/or investing financially in ZEV infrastructure and/or shipping corridors"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 4,
+      "text": "Fuels\n\t\t\t\t\t\t\t\t\u2022 Bunkering contracts for zero-emission fuels",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Bunkering contracts for zero-emission fuels"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 4,
+      "text": "Fuels\n\t\t\t\t\t\t\t\t\u2022 Investment in R&D in fossil-free ZEV fuels and propulsion technologies",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Investment in R&D in fossil-free ZEV fuels and propulsion technologies"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 4,
+      "text": "Fuels\n\t\t\t\t\t\t\t\t\u2022 Using MGO/hybrid-powered vessels",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Using MGO/hybrid-powered vessels"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 4,
+      "text": "Fuels\n\t\t\t\t\t\t\t\t\u2022 Bonus for green fuel contracts",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Bonus for green fuel contracts"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 4,
+      "text": "Efficiency\n\t\t\t\t\t\t\t\t\u2022 Implement e\ufb00iciency measures (e.g., hull coatings, routes, etc.)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Implement e\ufb00iciency measures (e.g., hull coatings, routes, etc.)"
+      ],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 1,
+      "text": "In 2022, Maersk signed a landmark green fuels agreement for the maritime industry.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 1,
+      "text": "Maersk views 'green methanol' as the only scalable green fuel option this decade.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 1,
+      "text": "For e-methanol, Maersk will only be using biogenic CO as feedstock and combine it with hydrogen to produce the methanol.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 1,
+      "text": "Maersk is also leading on electrification of terminal operations and inland truck transportation.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 1,
+      "text": "Maersk is active in multi-stakeholder forums such as the Smart Freight Centre, Clean Cargo and Road Freight Zero.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 1,
+      "text": "APM-Maersk has demonstrated remarkable leadership towards decarbonization, but there is always room for improvement.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 1,
+      "text": "Maersk is no di\ufb00erent. In addition to continuing to implement its many policy commitments, Maersk should increase its level of ambition by revising its targets to use a pre-pandemic baseline year.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 1,
+      "text": "Ship It Zero also urges Maersk to set benchmarks for upgrading its fleet with e\ufb03ciency and ZEV retrofits and set benchmarks for reducing or eliminating criteria air pollution (nitrogen oxides, sulfur oxides, particulate mater, ozone, and carbon monoxide).",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 1,
+      "text": "It should o\ufb00er slow steaming options to its customers and end its use of scrubbers.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 1,
+      "text": "We encourage Maersk to be more transparent by adding NOx and SOx to its emission dashboard, and reporting its shore power use.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 1,
+      "text": "Finally, Maersk\u2019s absolute emissions increased from 2022-2023, and Maersk must reverse this trend to continue to demonstrate leadership.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 1,
+      "text": "esrs_target: {\"target_type\": \"GHG reduction\", \"scope\": [\"`Scope 1``, `Scope 3`\"], \"base_year\": null, \"target_year\": null, \"reduction_percent\": null, \"absolute_or_intensity\": \"absolute\"}",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 1,
+      "text": "APM-Maersk earned 76.5 / 100 available points, or an overall \u2018B\u2019 grade, for the company\u2019s actions to date to end its ocean shipping pollution.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 1,
+      "text": "Maersk earned a \u2018C\u2019 on ending port pollution, a \u2018C\u2019 on Abandon Dirty Ships, and an \u2018A\u2019 on \u2018Put Zero at the Helm.\u2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 1,
+      "text": "Maersk operates a worldwide fleet of tankers, supply ships, and terminals.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 1,
+      "text": "Maersk is the largest shipping company in the world, and the second largest container shipping company after MSC.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citizations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 1,
+      "text": "The company reported $82 billion in annual revenue for 2022.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 1,
+      "text": "The shipping industry is expected to grow from $2.2 trillion in 2021 to $4.2 trillion by 2031 due to a 7% compound annual growth rate (CAGR) driven by the expansion of e-commerce.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 1,
+      "text": "APM-Maersk is not only the largest shipping company, it is also the best performing carrier in Ship it Zero\u2019s 2023 Report Card.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 1,
+      "text": "Maersk has made numerous commitments covering its ocean, inland transportation, terminals, and logistics services operations.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 1,
+      "text": "Maersk is an active member of Alliance for Clean Air.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 1,
+      "text": "Maersk committed to a 50% reduction in greenhouse gas emission intensity from 2020 baseline by 2030.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 1,
+      "text": "Maersk committed to a minimum of 25% of ocean cargo transported with green fuels by 2030.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 1,
+      "text": "Overall, Maersk is committed to a 70% reduction in absolute emissions by 2030 in Scope 1 and 2 (compared to 2020) and net zero by 2040 across all scopes \u2014 the port industry\u2019s most ambitious target to date.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 1,
+      "text": "While these are comparatively strong targets, it is important to note that 2020 was a year with reduced operations due to the COVID-19 pandemic.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "APM-Maersk_SIZ-2023-Report-Card.pdf",
+      "section_path": ""
+    }
+  ]
+}

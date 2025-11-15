@@ -3,3 +3,26 @@ python main.py \
   --company "IPCC AR6 WGIII" \
   --year 2022 \
   --query "Find sentences mentioning: 2019 global GHG emissions, GtCO2-eq, sector shares, mitigation potential, and any 'high confidence' statements."
+
+
+  -- more detail but not main (after recalbirated vector DB)
+
+  python -m src.cli extract-facts \
+  --db ./data/vectors \
+  --query "--query "
+Retrieve text from the Technical Summary that contains:
+- quantitative GHG emissions values (GtCO2, GtCO2-eq, MtCO2, %, °C, ppm)
+- sector shares (energy, industry, agriculture, AFOLU, buildings, transport)
+- mitigation potentials and ranges
+- global warming estimates or uncertainties
+- confidence qualifiers ('high confidence', 'medium confidence')
+
+Exclude:
+- adaptation-only statements
+- descriptive narrative without numbers
+- general background paragraphs
+
+Return only segments containing numbers AND climate metrics.
+"" \
+  --out ./data/cache/factsv3.json
+

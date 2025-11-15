@@ -1,0 +1,67 @@
+{
+  "company": "Unknown Co.",
+  "year": 2024,
+  "facts": [
+    {
+      "page": 12,
+      "text": "46\nSection 2\nSection 1\nSection 2\nFigure 2.2: Regional GHG emissions, and the regional proportion of total cumulative production-based CO2 emissions from 1850 to 2019.",
+      "confidence": "medium"
+    },
+    {
+      "page": 12,
+      "text": "Panel (a) shows the \nshare of historical cumulative net anthropogenic CO2 emissions per region from 1850 to 2019 in GtCO2.",
+      "confidence": "medium"
+    },
+    {
+      "page": 12,
+      "text": "Panel (b) shows the distribution of regional \nGHG emissions in tonnes CO2-eq per capita by region in 2019.",
+      "confidence": "medium"
+    },
+    {
+      "page": 12,
+      "text": "Panel (c) shows global net anthropogenic GHG emissions by region (in GtCO2-eq yr\u20131 (GWP100-AR6)) for the time period \n1990\u20132019.",
+      "confidence": "medium"
+    },
+    {
+      "page": 8,
+      "text": "Global greenhouse gas emissions \nhave continued to increase over 2010\u20132019, with unequal historical and ongoing contributions arising from \nunsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production \nacross regions, between and within countries, and between individuals (high con\ufb01dence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 59,
+      "text": "For example, in pathways that limit warming to 1.5\u00b0C (>50%) \nwith no or limited overshoot, global CH4 (methane) emissions are \nreduced by 34 [21 to 57]% below 2019 levels by 2030 and by \n44 [31 to 63]% in 2040 (high confidence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 59,
+      "text": "Global CH4 emissions \nare reduced by 24 [9 to 53]% below 2019 levels by 2030 and by \n37 [20 to 60]% in 2040 in modelled pathways that limit warming to \n2\u00b0C with action starting in 2020 (>67%) (high con\ufb01dence).",
+      "confidence": "medium"
+    },
+    {
+      "page": 23,
+      "text": "For mitigation, global GHG emissions in 2030 implied by NDCs \nannounced by October 2021 would make it likely that warming will exceed 1.5\u00b0C during the 21st century and would \nmake it harder to limit warming below 2\u00b0C.89 Despite progress, adaptation gaps90 persist, with many initiatives \nprioritising short-term risk reduction, hindering transformational adaptation.",
+      "confidence": "medium"
+    },
+    {
+      "page": 23,
+      "text": "The Gap Between Mitigation Policies, Pledges and \nPathways that Limit Warming to 1.5\u00b0C or Below 2\u00b0C\nGlobal GHG emissions in 2030 associated with the implementation \nof NDCs announced prior to",
+      "confidence": "medium"
+    },
+    {
+      "page": 24,
+      "text": "They are approximately \nequal to total cumulative net CO2 emissions in pathways that limit \nwarming to 2\u00b0C with a likelihood of 83%96 (see Figure 3.5).",
+      "confidence": "medium"
+    },
+    {
+      "page": 24,
+      "text": "{WGI Table SPM.2}\nTable 2.2 Projected global emissions in 2030 associated with policies implemented by the end of 2020 and NDCs announced prior to COP26, and associated \nemissions gaps.",
+      "confidence": "medium"
+    },
+    {
+      "page": 24,
+      "text": "Emissions projections for 2030 and gross differences in emissions are based on emissions of 52\u201356 GtCO2-eq yr\u20131 in 2019 as assumed in underlying model \nstudies97.",
+      "confidence": "medium"
+    }
+  ],
+  "raw": "fallback_regex_miner"
+}
