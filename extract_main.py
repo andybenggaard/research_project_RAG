@@ -2,12 +2,21 @@
 """
 Standalone script: Extract ESRS-aligned facts from vector DB
 
-Usage:
+Usage (default settings):
     python extract_main.py \
         --db ./data/vectors \
         --out ./data/cache/facts.json \
         --company "Maersk" \
         --year 2023
+
+With custom retrieval settings:
+    python extract_main.py \
+        --db ./data/vectors \
+        --out ./data/cache/facts.json \
+        --company "Maersk" \
+        --year 2023 \
+        --pool-size 120 \
+        --top-k 60
 """
 
 import argparse
@@ -36,6 +45,20 @@ def main():
     parser.add_argument("--company", required=True)
     parser.add_argument("--year", type=int, required=True)
 
+    # NEW: hybrid retrieval tuning
+    parser.add_argument(
+        "--pool-size",
+        type=int,
+        default=100,
+        help="How many chunks to pull from Chroma before BM25 re-ranking (default: 100)",
+    )
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=40,
+        help="How many chunks to keep after BM25 re-ranking (default: 40)",
+    )
+
     args = parser.parse_args()
 
     # Ensure output folder exists
@@ -48,6 +71,8 @@ def main():
         out_path=args.out,
         company=args.company,
         year=args.year,
+        pool_size=args.pool_size,
+        top_k=args.top_k,
     )
 
 

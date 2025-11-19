@@ -38,7 +38,7 @@ def _ollama_generate(
         "stream": False,
     }
 
-    resp = requests.post(url, json=payload, timeout=180)
+    resp = requests.post(url, json=payload, timeout=900)
 
     if not resp.ok:
         raise RuntimeError(f"Ollama error {resp.status_code}: {resp.text[:200]}")

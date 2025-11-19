@@ -1,67 +1,4159 @@
 {
-  "company": "Unknown Co.",
+  "company": "Maersk",
   "year": 2024,
   "facts": [
     {
-      "page": 59,
-      "text": "For example, in pathways that limit warming to 1.5\u00b0C (>50%) \nwith no or limited overshoot, global CH4 (methane) emissions are \nreduced by 34 [21 to 57]% below 2019 levels by 2030 and by \n44 [31 to 63]% in 2040 (high confidence).",
-      "confidence": "medium"
+      "id": "1",
+      "page": 102,
+      "text": "Vodafone Group Plc \u2013 based in the United Kingdom and mostly active in Africa and Europe \u2013 is one of the world\u2019s largest telecommunications companies. The company committed to net-zero emissions by 2040.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
     },
     {
-      "page": 59,
-      "text": "Global CH4 emissions \nare reduced by 24 [9 to 53]% below 2019 levels by 2030 and by \n37 [20 to 60]% in 2040 in modelled pathways that limit warming to \n2\u00b0C with action starting in 2020 (>67%) (high con\ufb01dence).",
-      "confidence": "medium"
+      "id": "2",
+      "page": 102,
+      "text": "Major emission sources: purchased goods and services (upstream scope 3, 31%); investments in joint ventures (downstream scope 3, 24%); use of sold products (downstream scope 3, 17%).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
     },
     {
+      "id": "3",
+      "page": 102,
+      "text": "Total reported GHG emissions 11.97 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 102,
+      "text": "Scope 1 emissions: 0.3 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 102,
+      "text": "Scope 2 emissions: 2.2 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 102,
+      "text": "Scope 3 upstream emissions: 4.6 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 102,
+      "text": "Scope 3 downstream emissions: 5.0 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 102,
+      "text": "Headline target or pledge: Net zero by 2040",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 102,
+      "text": "Emission reduction targets for 2030: S1&2: Net zero by 2030 (with seemingly high reliance on RECs); S3: -50% by 2030 from 2020",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 102,
+      "text": "RECs account for the major share of renewable electricity consumed.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 74,
+      "text": "Net-zero carbon by 2030",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2030,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 74,
+      "text": "Major emission sources: Purchase of goods and services (40%) and use of sold products (40%).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 74,
+      "text": "Disclosure: Major emission sources are disclosed transparently. Reporting both location-based and market-based for scope 2 emissions, but (lower) market-based method used for sum of emissions.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 74,
+      "text": "16.0 MtCO2e in 2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 74,
+      "text": "Scope 1: 0.8 MtCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emissions",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "6",
+      "page": 74,
+      "text": "Scope 2: 0.5 MtCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emissions",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "7",
+      "page": 74,
+      "text": "Scope 3 upstream: 7.8 MtCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "8",
+      "page": 74,
+      "text": "Scope 3 downstream: 6.8 MtCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.0 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 63,
+      "text": "CVS Health Corporation committed to reach net-zero emissions by 2050.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope unspecified"
+        ],
+        "base_year": null,
+        "target_year": 2050,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "12.04 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 63,
+      "text": "By 2030, the company aims to reduce 47% of scope 1 and 2 emissions and emissions from purchased goods and services, compared to 2019 levels.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": 2019,
+        "target_year": 2030,
+        "reduction_percent": "47%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "12.04 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 63,
+      "text": "Major emission sources: Purchase of goods and services (80%) (scope 3, upstream).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "Emissions source",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Purchase of goods and services (80%)",
+        "(scope 3, upstream)"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "12.04 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Misleading emission accounting approaches can significantly impact the integrity of companies\u2019 climate strategies.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "The exclusion of carbon intensive subsidiaries can create a false impression of a company\u2019s environmental footprint.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 20,
+      "text": "Some companies are moving or selling carbon intensive infrastructure, assets or products to wholly or partially owned subsidiary companies.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 20,
+      "text": "Companies may claim that this allows them to focus on the development of more sustainable business models for their core business.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 20,
+      "text": "However, this can also be simply a rebranding and distraction exercise, if the company excludes those subsidiaries\u2019 activities from its GHG emission reporting.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 20,
+      "text": "This can appear to make a company\u2019s emission footprint much lower than it really is.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 20,
+      "text": "This potential issue is especially relevant in sectors with major assets in carbon intensive infrastructure, such as the energy industries.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 20,
+      "text": "Both major energy utilities assessed in this report \u2013 E.ON SE and Enel S.p.A. \u2013 report only partially on the emissions of some subsidiaries.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 20,
+      "text": "Extraordinarily high emissions in specific historical years (including target base years), can conceal the real meaning of targets.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 20,
+      "text": "Historical GHG emission trends are more transparent if they are accompanied by activity data and explanations.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 20,
+      "text": "This is especially the case when emissions in a target base year are extraordinarily different from other years.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 20,
+      "text": "For example, CVS Health\u2019s scope 3 emissions are 70-80% higher in 2019 than in 2017, 2018 and 2020, without a clear explanation.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 20,
+      "text": "potentially undermining the meaningfulness of the company\u2019s target for a 47% reduction in scope 3 emissions by 2030 compared to 2019.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 105,
+      "text": "376.1 MtCO\ne in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "2020",
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "376.1 MtCO > 376.1 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 105,
+      "text": "4.3 (Scope 1) \n2.8 (Scope 2) \n76.2 (Scope 3 upstream)",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "esrs_target": null,
+      "components": [
+        "Total Scope 1 emissions: 4.3 MtCO\ne",
+        "Total Scope 2 emissions: 2.8 MtCO\ne",
+        "Total Scope 3 upstream emissions: 76.2 MtCO\ne"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "376.1 MtCO > 376.1 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 105,
+      "text": "No emission reduction target in the headline pledge.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "376.1 MtCO > 376.1 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 105,
+      "text": "-30% life-cycle emission intensity of vehicles by 2025 (2015 baseline)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "2015",
+        "target_year": "2025",
+        "reduction_percent": "-30%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "376.1 MtCO > 376.1 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 105,
+      "text": "-30% emissions from production and use-phase by 2030 (2018 baseline)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "2018",
+        "target_year": "2030",
+        "reduction_percent": "-30%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "376.1 MtCO > 376.1 MtCO"
+    },
+    {
+      "id": "1",
       "page": 23,
-      "text": "For mitigation, global GHG emissions in 2030 implied by NDCs \nannounced by October 2021 would make it likely that warming will exceed 1.5\u00b0C during the 21st century and would \nmake it harder to limit warming below 2\u00b0C.89 Despite progress, adaptation gaps90 persist, with many initiatives \nprioritising short-term risk reduction, hindering transformational adaptation.",
-      "confidence": "medium"
+      "text": "Targets should be explicit in their coverage of the complete spectrum of emission sources and greenhouse gases, to maximise impact and avoid misleading communication.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.1 Principles for good practice > 2.1.1 Coverage of emission sources in the headline pledge > 2.1.2 Emission reductions in the headline pledge"
     },
     {
+      "id": "2",
       "page": 23,
-      "text": "The Gap Between Mitigation Policies, Pledges and \nPathways that Limit Warming to 1.5\u00b0C or Below 2\u00b0C\nGlobal GHG emissions in 2030 associated with the implementation \nof NDCs announced prior to",
-      "confidence": "medium"
+      "text": "The most comprehensive targets cover the full GHG emission footprint of a company across its entire value chain, including upstream and downstream scope 3 emissions, and non-GHG climate forcers where relevant.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.1 Principles for good practice > 2.1.1 Coverage of emission sources in the headline pledge > 2.1.2 Emission reductions in the headline pledge"
     },
     {
-      "page": 24,
-      "text": "They are approximately \nequal to total cumulative net CO2 emissions in pathways that limit \nwarming to 2\u00b0C with a likelihood of 83%96 (see Figure 3.5).",
-      "confidence": "medium"
+      "id": "3",
+      "page": 23,
+      "text": "Companies should explicitly set out the coverage of their headline climate pledges to avoid misinterpretation and to ensure accountability.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.1 Principles for good practice > 2.1.1 Coverage of emission sources in the headline pledge > 2.1.2 Emission reductions in the headline pledge"
     },
     {
-      "page": 24,
-      "text": "{WGI Table SPM.2}\nTable 2.2 Projected global emissions in 2030 associated with policies implemented by the end of 2020 and NDCs announced prior to COP26, and associated \nemissions gaps.",
-      "confidence": "medium"
+      "id": "4",
+      "page": 23,
+      "text": "Coverage of all normal scope 3 emission categories is highly relevant, despite uncertainties and indirect influence.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.1 Principles for good practice > 2.1.1 Coverage of emission sources in the headline pledge > 2.1.2 Emission reductions in the headline pledge"
     },
     {
-      "page": 24,
-      "text": "Emissions projections for 2030 and gross differences in emissions are based on emissions of 52\u201356 GtCO2-eq yr\u20131 in 2019 as assumed in underlying model \nstudies97.",
-      "confidence": "medium"
+      "id": "5",
+      "page": 23,
+      "text": "Scope 3 emissions can entail a degree of uncertainty, particularly for complex emission sources related to land-use such as upstream food processing, and downstream emissions associated with consumer behaviour and product use.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.1 Principles for good practice > 2.1.1 Coverage of emission sources in the headline pledge > 2.1.2 Emission reductions in the headline pledge"
     },
     {
-      "page": 8,
-      "text": "Global greenhouse gas emissions \nhave continued to increase over 2010\u20132019, with unequal historical and ongoing contributions arising from \nunsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production \nacross regions, between and within countries, and between individuals (high con\ufb01dence).",
-      "confidence": "medium"
+      "id": "1",
+      "page": 20,
+      "text": "Emissions reduction pathways to achieve SBTi-aligned 2030 and 2040 targets",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3",
+          "GHG removals"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
     },
     {
+      "id": "2",
+      "page": 20,
+      "text": "6.4 (Scope 1 emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 20,
+      "text": "82.9 (Scope 3 emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 20,
+      "text": "-100% (Residual emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Residual emissions"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "100%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 20,
+      "text": "-90% (Scope 2 emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "90%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 20,
+      "text": "-22% (Scope 1 emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-22%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 20,
+      "text": "-96% (Scope 3 emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-96%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 20,
+      "text": "-35% (overall emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-35%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 20,
+      "text": "79.5 million tonnes (total GHG emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Carbon intensity",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 20,
+      "text": "4.1% (decrease in total GHG emissions)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Carbon intensity",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "4.1%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "emissions-reduction-pathways",
+      "page": 20,
+      "text": "Emissions reduction pathways to achieve SBTi-aligned 2030 and 2040 targets \n\n(m tonnes CO\u2082e/year)\n\nResidual emissions will be neutralised in accordance with the Net Zero criteria of the Science Based Targets initiative.\n\nScope 3\nScope 2\nScope 1\nGHG removals",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3",
+          "GHG removals"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "emissions-footprint-2023",
+      "page": 20,
+      "text": "In 2023, Maersk had a total GHG footprint of 79.5 million tonnes, a decrease of 4.1% compared to 2022 (see table below). The decrease was mainly driven by reduced purchases of capital goods (scope 3), and reduced fuel consumption (scope 1 and 3).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [
+        "reduced purchases of capital goods (scope 3)",
+        "reduced fuel consumption (scope 1 and 3)"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-validated-emissions-baseline",
+      "page": 20,
+      "text": "As part of the work to set SBTi-aligned targets, we have significantly improved the methodology for calculating scope 3 emissions, increasing the share of emissions that is calculated based on activity data from 50% to 82%. Our new targets therefore reflect a clearer understanding of our performance with a shift from spend-based estimates to activity-based estimates. This methodology eliminates the effect of operational and administrative charges which do not actually lead to emissions, and inflationary effects that cause uncertainty in spend-based estimates.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030",
+      "page": 20,
+      "text": "Scope 1\n6.4\nm tonnes CO\u2082e/year",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-scope-2",
+      "page": 20,
+      "text": "Scope 2\n82.9\nm tonnes CO\u2082e/year",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-scope-1-and-3",
+      "page": 20,
+      "text": "Scope 1 and 3\n59.8\nm tonnes CO\u2082e/year",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-scope-3",
+      "page": 20,
+      "text": "Scope 3\n-90%",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-90%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-scope-2",
+      "page": 20,
+      "text": "Scope 2\n-96%",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-96%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-scope-1",
+      "page": 20,
+      "text": "Scope 1\n-22%",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-22%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "sbti-aligned-targets-2030-gHG-removals",
+      "page": 20,
+      "text": "GHG removals\n-6.4\nm tonnes CO\u2082e/year",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "GHG removals"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-6.4%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-2",
+      "page": 20,
+      "text": "Residual emissions will be neutralised in accordance with the Net Zero criteria of the Science Based Targets initiative.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-3",
+      "page": 20,
+      "text": "6.4 (Scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-4",
+      "page": 20,
+      "text": "82.9 (Scope 3)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-5",
+      "page": 20,
+      "text": "59.8 (Scope 2)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-6",
+      "page": 20,
+      "text": "-100% (Scope 3)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "100%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-7",
+      "page": 20,
+      "text": "-90% (Scope 2)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "90%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-8",
+      "page": 20,
+      "text": "-22% (Scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-22%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-9",
+      "page": 20,
+      "text": "-96% (total)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-96%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "m-2024-10",
+      "page": 20,
+      "text": "-35% (total vs 2022)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": "-35%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 23,
+      "text": "In 2022, we improved our methodologies for scope 3 calculations, allowing us to report more precise figures which increase the total emissions reported.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 23,
+      "text": "As a result, our scope 3 emissions exceed scope 1 emissions and we have restated previous year's figures in line with our updated methodology.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 23,
+      "text": "The sourcing, trading and use of marine fuels remains the primary source of GHG emissions across scopes for Maersk.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 23,
+      "text": "The fuels impact both our scope 1 and scope 3 emissions.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 23,
+      "text": "Part of the improvement is a better way of calculating upstream emissions related to fuel production based on the FuelEU maritime standard.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 23,
+      "text": "Other key changes include how we report emissions from Vessel Sharing Agreements, now based on the number of containers per trade lane, rather than previously using a spend-based method.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 23,
+      "text": "Maersk\u2019s GHG emissions footprint for 2022 for use of sold products.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 23,
+      "text": "we developed a method to calculate emissions from external sales of Maersk Container Industry reefer containers.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 23,
+      "text": "Scope 3 calculations remain an evolving science.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 23,
+      "text": "Our scope 1 emissions come from our ocean operations (fuel use).",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 23,
+      "text": "95% of our scope 1 emissions come from ocean operations (fuel use).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 23,
+      "text": "Emissions created in the value chain as a result of Maersk's business activities, including emissions from cargo transported under vessel sharing agreements and sourcing of marine fuels to third-party customers.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 23,
+      "text": "The main activities driving our value chain emissions are:",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "nestle_emissions_2018",
+      "page": 89,
+      "text": "Nestl\u00e9 reported 113 MtCO2 emissions in 2018",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "nestle_emissions_sources_2018",
+      "page": 89,
+      "text": "58% from sourcing ingredients and 37% from downstream emissions",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "nestle_inconsistent_targets",
+      "page": 89,
+      "text": "Nestl\u00e9\u2019s targets and offsetting claims are inconsistent and misleading",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "nestle_interim_target_2030",
+      "page": 89,
+      "text": "Nestl\u00e9\u2019s interim emission reduction target of 50% by 2030 may really mean only an 18% reduction compared to its entire 2018 emissions footprint",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": 2018,
+        "target_year": 2030,
+        "reduction_percent": "18%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "nestle_sbti_certified_targets",
+      "page": 89,
+      "text": "Nestl\u00e9\u2019s SBTi-certified targets include emission reduction targets for 20% by 2025 and 50% by 2030, compared to a 2018 base year.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": 2018,
+        "target_year": 2025,
+        "reduction_percent": "20%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "nestle_net_zero_target_ambiguity",
+      "page": 89,
+      "text": "Nestl\u00e9\u2019s target for net-zero emissions by 2050 remains ambiguous due to incomplete scope coverage and no defined target for own emission reductions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2050,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "13 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 93,
+      "text": "27.8 MtCO\u00a0e (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2020",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "27.8 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 93,
+      "text": "Net zero carbon by 2050",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2050",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "27.8 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 93,
+      "text": "Emissions coverage of net zero target unclear.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "27.8 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 93,
+      "text": "Transparent interim targets, but limited depth and coverage.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2019",
+        "target_year": "2030",
+        "reduction_percent": "19%",
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "27.8 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 22,
+      "text": "Base year for analytical purposes is 2019.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "null",
+        "scope": null,
+        "base_year": "2019",
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 22,
+      "text": "Good practice performance for target setting: 19/25 companies have reasonable transparency and integrity.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "null",
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "null"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 22,
+      "text": "Maersk's net-zero target for shipping emissions in 2040 includes a target for CO2 removal.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2040",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "maersk_emissions_2020",
+      "page": 95,
+      "text": "18.5 MtCO<sub>e</sub>(2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions (Scope 1, Scope 2, Scope 3)",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "18.5 MtCO > 18.5 MtCO"
+    },
+    {
+      "id": "maersk_emissions_reduction_2035",
+      "page": 95,
+      "text": "-72% by 2035 from 2018 (Scope 1 & Scope 2)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emission reductions (GHG)",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2018",
+        "target_year": "2035",
+        "reduction_percent": "-72%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "18.5 MtCO > 18.5 MtCO"
+    },
+    {
+      "id": "maersk_emissions_reduction_2035_scope_3",
+      "page": 95,
+      "text": "-45% by 2035 from 2018 (Scope 3)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emission reductions (GHG)",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "2018",
+        "target_year": "2035",
+        "reduction_percent": "-45%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "18.5 MtCO > 18.5 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 101,
+      "text": "Vale\u2019s carbon neutrality target for 2050 covers only 2% of current emissions and depends on the use of carbon offset credits.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": 2050,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 101,
+      "text": "Vale\u2019s carbon neutrality pledge for 2050 covers scope 1 and 2 emissions, which contribute to only 2% of its climate footprint.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": 2050,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 101,
+      "text": "Vale commits to an interim reduction target of 33% by 2030, compared to 2017, for scopes 1 and 2 emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": 2017,
+        "target_year": 2030,
+        "reduction_percent": 33,
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 101,
+      "text": "Vale aims to reduce its scope 3 emissions by net 15% by 2035.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2035,
+        "reduction_percent": 15,
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 25,
+      "text": "out of 25 companies\u2019 headline targets cover the full scope of emissions across the full value chain, while 8 companies have targets that cover only their own operational emissions (scope 1 and 2) without upstream and downstream emissions from the value chain.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "2",
+      "page": 25,
+      "text": "For the companies that cover the full range of their scope 1, 2 and 3 emissions in their targets, this was communicated transparently in every one of those cases.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "2.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "1",
+      "page": 100,
+      "text": "Mining: 490.8 MtCO\n(2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "2020",
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "490.8 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 100,
+      "text": "Carbon neutral by 2050 (scope 1 & 2)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": "2050",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "490.8 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 100,
+      "text": "-33% by 2030 from 2017 (Scope 1 & 2)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emission reduction target",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2017",
+        "target_year": "2030",
+        "reduction_percent": "-33%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "490.8 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 100,
+      "text": "-15% by 2035 from 2018 (Scope 3)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emission reduction target",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "2018",
+        "target_year": "2035",
+        "reduction_percent": "-15%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "490.8 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 62,
+      "text": "Carrefour\u2019s carbon neutral by 2040 target appears to cover far less than 2% of the company\u2019s emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": 2040,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 62,
+      "text": "Carrefour announced a new carbon neutrality target for 2040 on the eve of COP26 in October 2021, accompanied by the more specific target to reduce its scope 1 and 2 emissions by 70% by 2040, compared to 2019.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": 2019,
+        "target_year": 2040,
+        "reduction_percent": "70%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 62,
+      "text": "Carrefour\u2019s separate interim target of 29% emission reductions from scope 3 emissions by 2030 is a far more significant target, given that scope 3 emissions account for 98% of the company\u2019s footprint, but these emissions do not appear to be covered by the headline carbon neutrality target.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2030,
+        "reduction_percent": "29%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 79,
+      "text": "In 2020, Maersk had emissions of 60.8 MtCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 79,
+      "text": "Hitachi committed to become carbon neutral across its value chain by 2050.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "carbon neutrality",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2050",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 79,
+      "text": "Major emission sources for Maersk are use of sold products (downstream scope 3, 83%) and Purchased goods and services (upstream scope 3, 9%)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "use of sold products (downstream scope 3)",
+        "Purchased goods and services (upstream scope 3)"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 61,
+      "text": "95.7 MtCO\ne (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "95.7 MtCO > 95.7 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 61,
+      "text": "Carbon neutral by 2040",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2040",
+        "reduction_percent": null,
+        "absolute_or_intensity": "GHG reduction"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "95.7 MtCO > 95.7 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 61,
+      "text": "70% emission reduction S1&2 by 2040 from 2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2019",
+        "target_year": "2040",
+        "reduction_percent": "70%",
+        "absolute_or_intensity": "GHG reduction"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "95.7 MtCO > 95.7 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 61,
+      "text": "S1&2: -50% by 2030 from 2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2019",
+        "target_year": "2030",
+        "reduction_percent": "-50%",
+        "absolute_or_intensity": "GHG reduction"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "95.7 MtCO > 95.7 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 61,
+      "text": "S3: -29% by 2030 from 2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "2019",
+        "target_year": "2030",
+        "reduction_percent": "-29%",
+        "absolute_or_intensity": "GHG reduction"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "95.7 MtCO > 95.7 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 84,
+      "text": "JBS S.A. \u2013 headquartered in Brazil \u2013 is a major meat processing company. In March 2021, JBS announced its net-zero emissions target for 2040.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "[84]"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 84,
+      "text": "Major emission sources: Upstream scope 3 emissions, resulting from land-use change in the value chain.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 84,
+      "text": "Disclosure: Annual reporting of scope 1, 2 and 3 emissions for three most recent years, but with limited detail. Location-based or market-based method for scope 2 emissions not specified.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 84,
+      "text": "Disclosure: Gross underreporting of scope 3 emissions: no reporting on a large share of LUC emissions (e.g., non-JBS-owned farms and feedlots are not included).",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 84,
+      "text": "6.8 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "6",
+      "page": 84,
+      "text": "Scope 1: 4.7 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "7",
+      "page": 84,
+      "text": "Scope 2: 1.6 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "8",
+      "page": 84,
+      "text": "Scope 3 estimate: 0.6 MtCO2e in 2020",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "9",
+      "page": 84,
+      "text": "Unclear target coverage: high likelihood of omitting emissions from non-JBS farms and feedlots and deforestation.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "10",
+      "page": 84,
+      "text": "Net-zero emissions by 2040 (no emission reduction target as part of headline pledge).",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "11",
+      "page": 84,
+      "text": "S1&2: -30% by 2030, from 2019. Unclear if absolute or intensity target.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "6.8 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 70,
+      "text": "97.9 MtCO\ne in 2020",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": "2020",
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "97.9 MtCO > 97.9 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 70,
+      "text": "S1: -60% by 2023; -80% by 2030 from 2017",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": "2017",
+        "target_year": "2023, 2030",
+        "reduction_percent": "-60% (2023), -80% (2030)",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "97.9 MtCO > 97.9 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 70,
+      "text": "S3: -16% by 2030 from 2017",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "2017",
+        "target_year": "2030",
+        "reduction_percent": "-16%",
+        "absolute_or_intensity": "relative"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "97.9 MtCO > 97.9 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 52,
+      "text": "0.86 MtCO\ne (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 52,
+      "text": "Net zero emissions by 2025",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2025,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 52,
+      "text": "Major emission sources: Purchased goods and services (upstream scope 3, 48%), Business travel (upstream scope 3, 31%)",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": null,
+      "components": [
+        "Purchased goods and services (upstream scope 3, 48%)",
+        "Business travel (upstream scope 3, 31%)"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 52,
+      "text": "Detailed information on scope 1 and 2 emissions. Some scope 3 emissions tracked and disclosed.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": null,
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 52,
+      "text": "0.02 in Scope 1",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "6",
+      "page": 52,
+      "text": "0.21 in Scope 2",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "7",
+      "page": 52,
+      "text": "0.93 in Scope 3 upstream",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "0.86 MtCO"
+    },
+    {
+      "id": "a1",
       "page": 48,
-      "text": "For every \n1000 GtCO2 emitted by human activity, global mean temperature rises \nby likely 0.27\u00b0C to 0.63\u00b0C (best estimate of 0.45\u00b0C).",
-      "confidence": "medium"
+      "text": "The Performance data in the A.P. M\u00f8ller - M\u00e6rck Sustainability Report 2020 are free of material misstatements and prepared, in all material respects, in accordance with the Sustainability Accounting Principles as stated on pages 46-47",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "apmm-sustainability-report-2020-a4-210210.pdf",
+      "section_path": ""
     },
     {
+      "id": "a2",
+      "page": 48,
+      "text": "Scope 3 carbon emissions have not been in scope for our review of the 2020 Performance data.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "apmm-sustainability-report-2020-a4-210210.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "a3",
+      "page": 48,
+      "text": "We performed a limited assurance engagement in accordance with International Standard on Assurance Engagements 3000 (Revised) \u2018Assurance Engagements other than Audits and Reviews of Historical Financial Information\u2019 and, in respect of the greenhouse gas emissions, in accordance with International Standard on Assurance Engagements 3410 \u201cAssurance engagements on greenhouse gas statements\u201d.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "apmm-sustainability-report-2020-a4-210210.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "a4",
+      "page": 48,
+      "text": "Greenhouse Gas quantification is subject to inherent uncertainty because of incomplete scientific knowledge used to determine emissions factors and the values needed to combine emissions of different gases.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "apmm-sustainability-report-2020-a4-210210.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 72,
+      "text": "116.3 MtCOe in 2020",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3 upstream",
+          "Scope 3 downstream"
+        ],
+        "base_year": "2020",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "116.3 MtCO > 116.3 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 72,
+      "text": "Carbon neutral by 2040",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2040",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "116.3 MtCO > 116.3 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 72,
+      "text": "Interim targets from 2030: S1&2: -75% by 2030 from 2019; S3: -50% by 2030 from 2019",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2019",
+        "target_year": "2030",
+        "reduction_percent": "-75% (S1&2)",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "S3: -50% by 2030 from 2019"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "116.3 MtCO > 116.3 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 16,
+      "text": "13/25 companies annually disclose their emissions",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 16,
+      "text": "8/25 companies provide a breakdown of emission sources",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 16,
+      "text": "10/25 companies present historical data for the same emission sources",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 16,
+      "text": "16/25 companies present activity data and emission intensities",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 22,
+      "text": "The 13 companies plan to reduce their full value chain emissions from 2019 (before netting) by an average of just 40% (median 40%; mean 46%)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "2019",
+        "target_year": null,
+        "reduction_percent": "40%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 22,
+      "text": "15 of the 25 companies set targets covering their full value chain emissions, while 8 companies\u2019 have targets that cover only scope 1 and 2 emissions",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "Emerging issue",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 22,
+      "text": "The average emission reduction commitment of full value chain emissions between 2019 and 2030 is estimated at just 23% (median 23%; mean 25%)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "2019",
+        "target_year": "2030",
+        "reduction_percent": "23%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 65,
+      "text": "39,1 MtCO e (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": "(2020)",
+        "target_year": "(null)",
+        "reduction_percent": "(null)",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "39.10 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 65,
+      "text": "Scope 1: 6.58 MtCO e (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": "(2020)",
+        "target_year": "(null)",
+        "reduction_percent": "(null)",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "39.10 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 65,
+      "text": "Scope 2: 0.67 MtCO e (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": "(2020)",
+        "target_year": "(null)",
+        "reduction_percent": "(null)",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "39.10 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 65,
+      "text": "Scope 3 upstream: 64% (2020)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": "(2020)",
+        "target_year": "(null)",
+        "reduction_percent": "(null)",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "39.10 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 68,
+      "text": "Deutsche Telekom AG \u2013 based in Germany \u2013 is one of the world\u2019s largest telecommunications companies.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 68,
+      "text": "The company committed to net-zero emissions by 2040 and to net-zero scope 1 and 2 emissions by 2025.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 68,
+      "text": "Major emission sources: Use of sold and leased products (scope 3 downstream, 38%) and purchased energy (scope 2, 14%).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 68,
+      "text": "All major emission sources are disclosed.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 68,
+      "text": "Location-based accounting for scope 2 emissions could be highlighted more prominently in aggregated statistics.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "6",
+      "page": 68,
+      "text": "Scope 1 emissions: 0.235 MtCO2-eq in 2020.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "7",
+      "page": 68,
+      "text": "Scope 2 emissions: 2.277 MtCO2-eq in 2020.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "8",
+      "page": 68,
+      "text": "Scope 3 upstream emissions: 8.221 MtCO2-eq in 2020.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "9",
+      "page": 68,
+      "text": "Scope 3 downstream emissions: 5.66 MtCO2-eq in 2020.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "10",
+      "page": 68,
+      "text": "Net-zero emissions by 2040. Explicit aim for \u2018near zero\u2019, with offsetting of only residual emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "11",
+      "page": 68,
+      "text": "S1&2: Net-zero by 2025. High reliance on RECs.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "12",
+      "page": 68,
+      "text": "S3 (major sources): -25% emission intensity by 2030.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "13",
+      "page": 68,
+      "text": "All scope 1, 2 and 3 emissions are covered.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citizations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "16.4 MtCO"
+    },
+    {
+      "id": "maersk-1",
+      "page": 91,
+      "text": "Carbon neutral value chain by 2030",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2030,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "maersk-2",
+      "page": 91,
+      "text": "35% reduction by 2030, compared to 2016 year. Equates to -40% compared to 2019 emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2030,
+        "reduction_percent": "35% compared to 2016 year; -40% compared to 2019 emissions",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "maersk-3",
+      "page": 91,
+      "text": "S1&2: carbon neutral by 2025; includes an unclear offsetting share.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": 2025,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "maersk-4",
+      "page": 91,
+      "text": "Major emission sources: Purchased goods and services (upstream scope 3, 64%).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [
+        "Purchased goods and services (upstream scope 3) comprise 64% of the emissions."
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "maersk-5",
+      "page": 91,
+      "text": "Disclosure: Reporting of scope 1 and 2 is reasonable, but lacks some detail. Location-based and market-based method are both used for scope 2 emissions, but (lower) market-based method is used for the sum of emissions.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [
+        "Reporting of scope 1 and 2 emissions has some detail gaps."
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "maersk-6",
+      "page": 91,
+      "text": "Scope 3 reporting is inconsistent: only business travel emissions covered in main public documentation (0.3% of all scope 3 emissions reported elsewhere).",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": null,
+      "components": [
+        "Business travel emissions are the only Scope 3 emissions reported in the main public documentation."
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "7.1 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 17,
+      "text": "Companies should annually disclose detailed information on their GHG emissions, covering the full spectrum of climate impacts associated with the activities of the company.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "2",
+      "page": 17,
+      "text": "Complete and transparent disclosure covers all direct emissions (scope 1), indirect energy-use emissions (scope 2) and other upstream and downstream indirect emissions (scope 3).",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "3",
+      "page": 17,
+      "text": "The latter includes business travel emissions, emissions from procured products and services, investments, waste, upstream and downstream transport and distribution and emissions from product use.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "4",
+      "page": 17,
+      "text": "Companies should publish information on the methodologies and assumptions involved in the calculation of emissions, to facilitate comprehension and verification.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "5",
+      "page": 17,
+      "text": "Complete and consistent reporting of GHG emissions across documents is necessary to avoid misleading readers.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "6",
+      "page": 17,
+      "text": "Companies should report scope 2 emissions using both the location-based and market-based method, taking the highest of the two values for their calculation of their total emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1 Principles for good practice > 1.1.1 Tracking and disclosure of emissions"
+    },
+    {
+      "id": "1",
+      "page": 21,
+      "text": "Companies\u2019 headline climate change pledges encompass a broad range of target setting approaches.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 21,
+      "text": "Some companies opt for specific GHG emission reduction targets, but most major companies are moving towards \u2018net zero\u2019 pledges.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 21,
+      "text": "Some companies\u2019 headline pledges are long-term visions for 2040 or 2050, while others focus on shorter-term commitments for 2025 or 2030.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 21,
+      "text": "Some targets cover a company\u2019s full scope of emissions throughout the value chain, while others focus only on specific emission sources.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 21,
+      "text": "Some companies do not commit to absolute GHG-related targets, but rather focus on emission intensity targets (emissions per unit of output or revenue), or targets associated with decarbonisation indicators, such as renewable energy targets.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 21,
+      "text": "Some companies select from only one of these target setting approaches, while others combine several, or all of them.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 21,
+      "text": "The high diversity of target setting approaches could stem from differences in companies\u2019 specific circumstances, different availability of mitigation options, and different understandings of the materiality of scope 3 emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 21,
+      "text": "Regardless of the type of target set and the terminology used, it is most crucial that the targets send a clear signal for immediate action to decarbonise the entire value chain.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 21,
+      "text": "Limiting global temperature increase to 1.5\u00b0C requires the rapid decarbonisation of all sectors, to reach a state of net-zero global CO emissions by around 2050, net-zero GHG emissions by around 2060 to 2070, and net-negative emissions.",
+      "confidence": "high",
+      "fact_type": "axiom",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
       "page": 25,
-      "text": "Panel a shows global GHG emissions over 2015-2050 for four types of assessed modelled global pathways:\n - Trend from implemented policies: Pathways with projected near-term GHG emissions in line with policies implemented until the end of 2020 and extended with comparable \nambition  levels beyond 2030 (29 scenarios across categories C5\u2013C7, WGIII Table SPM.2).",
-      "confidence": "medium"
+      "text": "SCOPE 1: Own Operations Bunker fuel 44% 11,117 Direct emissions coming from our financially controlled operations.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Bunker fuel"
+      ],
+      "file_name": "maersk-sustainability-report_2021.pdf",
+      "section_path": ""
     },
     {
+      "id": "2",
       "page": 25,
-      "text": "- Limit to 2\u00b0C (>67%) or return warming to 1.5\u00b0C (>50%) after a high overshoot, NDCs until 2030: Pathways with GHG emissions until 2030 associated with the \nimplementation of NDCs announced prior to COP26, followed by accelerated",
-      "confidence": "medium"
+      "text": "93% of our scope 1 emissions come from our ocean operations (fuel use). (2020: 96%)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": 2020,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "ocean operations (fuel use)"
+      ],
+      "file_name": "maersk-sustainability-report_2021.pdf",
+      "section_path": ""
     },
     {
-      "page": 12,
-      "text": "46\nSection 2\nSection 1\nSection 2\nFigure 2.2: Regional GHG emissions, and the regional proportion of total cumulative production-based CO2 emissions from 1850 to 2019.",
-      "confidence": "medium"
+      "id": "3",
+      "page": 25,
+      "text": "Emissions created in the value chain as a result of Maersk's business activities, including emissions from cargo transported under vessel sharing agreements and sourcing of marine fuels to third-party customers.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "cargo transported under vessel sharing agreements",
+        "sourcing of marine fuels to third-party customers"
+      ],
+      "file_name": "maersk-sustainability-report_2021.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 25,
+      "text": "SCOPE 2: Purchased Electricity (location-based) 61% of our scope 2 emissions come from our terminals.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "our terminals"
+      ],
+      "file_name": "maersk-sustainability-report_2021.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 76,
+      "text": "15.3 MtCO\ne (2020)",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 2"
+        ],
+        "base_year": "2020",
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "15.3 MtCO"
+    },
+    {
+      "id": "2",
+      "page": 76,
+      "text": "Carbon free and net zero by 2030",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": "2030",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "15.3 MtCO"
+    },
+    {
+      "id": "3",
+      "page": 76,
+      "text": "Major emission sources: Electricity for data centres (in scope 2); use of products (in scope 3 downstream).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "emissions",
+        "scope": [
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "15.3 MtCO"
+    },
+    {
+      "id": "4",
+      "page": 76,
+      "text": "The granularity of emissions reporting is limited for \u2018business reasons\u2019, which limits transparency, especially for Scope 3 emissions which represent the majority.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "15.3 MtCO"
+    },
+    {
+      "id": "5",
+      "page": 76,
+      "text": "The distribution of scope 3 emissions between upstream and downstream sources is not disclosed; we estimated this based on available information.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "15.3 MtCO"
+    },
+    {
+      "id": "1",
+      "page": 123,
+      "text": "The inclusion of non-mandatory scope 3 emissions is not always constructive.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "16"
+      ],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "51 Accenture, 2021c; 2021b)"
+    },
+    {
+      "id": "1",
+      "page": 2,
+      "text": "Ocean: ~50% reduction in carbon intensity (EEOI) by 2030 (2020 baseline)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": 2020,
+        "target_year": 2030,
+        "reduction_percent": "50%",
+        "absolute_or_intensity": "intensity"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": "2024 Target"
+    },
+    {
+      "id": "2",
+      "page": 2,
+      "text": "Ocean: Min. 25% of cargo transported with green fuels by 2030",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "renewable fuels",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2030,
+        "reduction_percent": "25%",
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "section_path": "2024 Target"
+    },
+    {
+      "id": "bmw_emission_scopes",
+      "page": 60,
+      "text": "Most of the BMW Group\u2019s emissions arise in the use phase of its vehicles (~70%) and their manufacturing (~25%).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "BMW Group's emissions",
+        "use phase of its vehicles",
+        "~70%",
+        "manufacturing",
+        "~25%"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_climate_neutral_target",
+      "page": 60,
+      "text": "The BMW Group has set a climate-neutral target for 2050 covering the entire value chain of their business, but it does not define what the target entails in terms of emission reductions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": 2050,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_no_explicit_emissions_reduction_target",
+      "page": 60,
+      "text": "Because BMW has not set a specific target for deep emission reductions, it remains unclear what proportion of emissions the company intends to reduce and how it intends to offset.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_interim_emission_intensity_targets",
+      "page": 60,
+      "text": "The BMW Group set several interim emission intensity targets to achieve by 2030, but they are not aligned with 1.5\u00b0C decarbonisation trajectories.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": 2019,
+        "target_year": 2030,
+        "reduction_percent": null,
+        "absolute_or_intensity": "intensity"
+      },
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_interim_emission_intensity_targets_details",
+      "page": 60,
+      "text": "These targets cover all emission scopes and are set against a 2019 baseline: reducing emissions in its locations and throughout the production process per vehicle by 80% (scopes 1 and 2), reducing emissions in the supply chain per vehicle by 22% (scope 3 upstream), and reducing emissions in the use-phase per vehicle per kilometre by 50% (scope 3 downstream).",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "components": [
+        "BMW Group's emission intensity targets",
+        "all emission scopes",
+        "2019 baseline",
+        "reducing emissions in its locations and throughout the production process per vehicle by 80% (scopes 1 and 2)",
+        "reducing emissions in the supply chain per vehicle by 22% (scope 3 upstream)",
+        "reducing emissions in the use-phase per vehicle per kilometre by 50% (scope 3 downstream)"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_use_phase_emissions",
+      "page": 60,
+      "text": "This target, however, falls short of what is needed for a 1.5\u00b0C-aligned decarbonisation trajectory for the transport sector.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3 downstream"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "bmw_use_phase_emissions_representation",
+      "page": 60,
+      "text": "Use-phase emissions represented 70% of the company\u2019s emissions in 2020.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "use-phase emissions",
+        "~70%",
+        "the company's emissions",
+        "2020"
+      ],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 18,
+      "text": "All of the companies we assessed have reported their GHG emissions footprint on an annual basis.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "2",
+      "page": 18,
+      "text": "Providing transparency on the current emissions footprint is the first step towards implementing a comprehensive and robust climate responsibility approach.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "3",
+      "page": 18,
+      "text": "There are significant differences in the level of detail of the GHG emission disclosures among the analysed companies.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "4",
+      "page": 18,
+      "text": "Where some companies facilitate a thorough understanding of their emission sources through granular data on specific emission sources, others only present aggregate data for scopes 1, 2 and 3, without providing a clear breakdown.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "5",
+      "page": 18,
+      "text": "Fewer than half of analysed companies present any underlying activity data to complement their GHG emission disclosure.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "6",
+      "page": 18,
+      "text": "Underlying activity data can enable a more thorough understanding of emission sources and the extent to which companies are taking steps to address their climate impact. These activity indicators include energy consumption data from specific individual energy carriers, raw material consumption, production volumes, waste volumes, passenger and freight transportation statistics, among others.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": null,
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": "1.1.2 Good practice assessment criteria > 1.2 Trends, role models, and bad practice"
+    },
+    {
+      "id": "1",
+      "page": 108,
+      "text": "Walmart\u2019s headline target is to reduce its scope 1 and 2 emissions to zero by 2040 aligned with interim targets for 2025 and 2030.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2019",
+        "target_year": "2040",
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 108,
+      "text": "Walmart has set interim emission reduction targets for its scope 1 and 2 emissions: reductions of 35% by 2025 and 65% by 2030 respectively, compared to a 2015 baseline.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2"
+        ],
+        "base_year": "2015",
+        "target_year": "2030",
+        "reduction_percent": [
+          35,
+          65
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "1",
+      "page": 71,
+      "text": "Enel is an international energy utility. Its main emissions derive from electricity and heat generation, electricity retail, and gas retail.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "2",
+      "page": 71,
+      "text": "Enel is taking action in the near-term to phase out coal combustion.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "3",
+      "page": 71,
+      "text": "The lack of clarity on longer-term targets and plans for addressing scope 3 emissions from electricity retail and gas may undermine the company\u2019s climate credentials.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "4",
+      "page": 71,
+      "text": "Enel\u2019s climate-related targets are set out in detail, although the long-term goal and its sufficiency is unclear.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "5",
+      "page": 71,
+      "text": "Enel frequently refers to two different headline pledges for 2050: a target for \u2018complete decarbonisation by 2050\u2019 refers only to scope 1 emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "6",
+      "page": 71,
+      "text": "A separate target for \u2018net-zero by 2050\u2019 refers to the full value chain.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "7",
+      "page": 71,
+      "text": "The important difference between these targets is not immediately obvious and can lead to confusion.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "8",
+      "page": 71,
+      "text": "The net-zero target is particularly ambiguous since this is not accompanied by a specific emission reduction target for all emission scopes.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "9",
+      "page": 71,
+      "text": "The ambiguity may reflect a lack of commitment on what the company aims for.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "10",
+      "page": 71,
+      "text": "Enel representatives have publicly speculated that the company may be out of gas by 2050.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "11",
+      "page": 71,
+      "text": "Enel does not believe in technology that offsets CO and has no expectations for carbon capture and storage.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "12",
+      "page": 71,
+      "text": "The complete decarbonisation of emissions from own generated power sales by 2050 may be aligned with 1.5 \u00b0C compatible trajectories.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "13",
+      "page": 71,
+      "text": "The lack of an explicit emission reduction target for scope 2 and scope 3 emissions means that the overall sufficiency of the long-term vision is unclear.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "14",
+      "page": 71,
+      "text": "Enel\u2019s emissions intensity reduction target for scope 1 is 65%.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "15",
+      "page": 71,
+      "text": "Enel\u2019s climate targets ESRS E1-4 framing: targets, base years, % reductions, scopes involved:",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "16",
+      "page": 71,
+      "text": "Enel\u2019s long-term goal: complete decarbonisation by 2050 (Scope 1 only).",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "17",
+      "page": 71,
+      "text": "Enel\u2019s long-term goal: net-zero by 2050 (full value chain).",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "18",
+      "page": 71,
+      "text": "Enel\u2019s scope 1 emission intensity reduction target: 65% by 20XX.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "19",
+      "page": 71,
+      "text": "Enel\u2019s long-term vision does not include an explicit emission reduction target for scope 2 and scope 3 emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
+    },
+    {
+      "id": "20",
+      "page": 71,
+      "text": "Enel\u2019s long-term vision for coal combustion phase-out is unclear.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "file_name": "CorporateClimateResponsibilityMonitor2022.pdf",
+      "section_path": ""
     }
-  ],
-  "raw": "fallback_regex_miner"
+  ]
 }

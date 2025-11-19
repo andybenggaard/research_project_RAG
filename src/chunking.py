@@ -6,7 +6,7 @@ Improved ESG-grade chunking for PDF ingestion.
 - Section path generation
 - Paragraph-aware chunking
 - Semantic overlap
-- Stable token estimation
+- Table-aware paragraphs (from utils_pdf blocks)
 """
 
 from typing import List, Dict
@@ -69,11 +69,58 @@ def update_section_path(section_path: List[str], new_heading: str) -> List[str]:
 
 
 # ----------------------------------------
-# Split page into structural paragraphs
+# Fallback: split page text into paragraphs
 # ----------------------------------------
 def split_paragraphs(text: str) -> List[str]:
     # Split on blank lines but keep tight paragraphs
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
+    return paras
+
+
+# ----------------------------------------
+# New: build paragraphs from blocks (with tables)
+# ----------------------------------------
+def paragraphs_from_record(record: Dict) -> List[Dict]:
+    """
+    Build a list of paragraph dicts from a page record.
+
+    Each element:
+      {
+        "text": "<paragraph text>",
+        "is_table": bool
+      }
+
+    If record["blocks"] exists (from utils_pdf), we use block-level info:
+      - block_type == "table" → use table_text, wrapped in [TABLE] markers
+      - other blocks → normal text paragraphs
+
+    If no blocks are present, we fall back to split_paragraphs(record["text"])
+    with is_table=False.
+    """
+    blocks = record.get("blocks")
+    paras: List[Dict] = []
+
+    if not blocks:
+        # Fallback: simple paragraph splitting
+        for p in split_paragraphs(record.get("text", "")):
+            paras.append({"text": p, "is_table": False})
+        return paras
+
+    for b in blocks:
+        btype = b.get("block_type", "text")
+        if btype == "table":
+            t = (b.get("table_text") or b.get("text") or "").strip()
+            if not t:
+                continue
+            # Wrap table to make it explicit to the LLM
+            wrapped = "[TABLE]\n" + t + "\n[/TABLE]"
+            paras.append({"text": wrapped, "is_table": True})
+        else:
+            t = (b.get("text") or "").strip()
+            if not t:
+                continue
+            paras.append({"text": t, "is_table": False})
+
     return paras
 
 
@@ -85,23 +132,28 @@ def chunk_page(record: Dict, chunk_size: int, overlap_tokens: int) -> List[Dict]
     ESG-optimized chunking:
     - paragraph-aware
     - heading detection and section_path tracking
-    - semantic overlap by paragraph, not raw characters
+    - semantic overlap by paragraph
+    - table-aware paragraphs (flag + [TABLE] markers)
     """
-    text = record["text"]
     file_name = record["file_name"]
     page = record["page"]
     source_uri = record["source_uri"]
 
-    paras = split_paragraphs(text)
-    chunks = []
+    para_objs = paragraphs_from_record(record)  # [{"text":..., "is_table":...}, ...]
 
-    buf: List[str] = []
+    chunks: List[Dict] = []
+    buf: List[Dict] = []   # list of para_objs
     buf_tokens = 0
     section_path: List[str] = []
 
-    for para in paras:
-        # 1. If the paragraph is a heading, update section path
-        heading = detect_heading(para)
+    for po in para_objs:
+        para = po["text"]
+        is_table = po["is_table"]
+
+        # 1. Heading detection only on non-table paragraphs
+        heading = None
+        if not is_table:
+            heading = detect_heading(para)
         if heading:
             section_path = update_section_path(section_path, heading)
 
@@ -109,47 +161,49 @@ def chunk_page(record: Dict, chunk_size: int, overlap_tokens: int) -> List[Dict]
 
         # 2. If adding this paragraph exceeds chunk size, flush the chunk
         if buf and (buf_tokens + ptoks > chunk_size):
-            chunk_text = "\n\n".join(buf)
+            chunk_text = "\n\n".join(p["text"] for p in buf)
+            has_table = any(p["is_table"] for p in buf)
+
             chunks.append({
                 "text": chunk_text,
                 "page": page,
                 "file_name": file_name,
                 "source_uri": source_uri,
                 "section_path": " > ".join(section_path),
+                "has_table": has_table,
             })
 
-            # ----------------------------------------
             # 3. Semantic overlap: reuse the LAST paragraphs up to overlap_tokens
-            # ----------------------------------------
-            overlap_buf = []
+            overlap_buf: List[Dict] = []
             overlap_sum = 0
 
-            # start from end, accumulate until overlap_tokens reached
-            for prev_para in reversed(buf):
-                t = count_tokens(prev_para)
+            for prev in reversed(buf):
+                t = count_tokens(prev["text"])
                 if overlap_sum + t > overlap_tokens:
                     break
-                overlap_buf.insert(0, prev_para)
+                overlap_buf.insert(0, prev)
                 overlap_sum += t
 
             # new buffer contains overlap + new paragraph
-            buf = overlap_buf + [para]
+            buf = overlap_buf + [po]
             buf_tokens = overlap_sum + ptoks
 
         else:
             # Just add paragraph to buffer
-            buf.append(para)
+            buf.append(po)
             buf_tokens += ptoks
 
     # Flush remaining
     if buf:
-        chunk_text = "\n\n".join(buf)
+        chunk_text = "\n\n".join(p["text"] for p in buf)
+        has_table = any(p["is_table"] for p in buf)
         chunks.append({
             "text": chunk_text,
             "page": page,
             "file_name": file_name,
             "source_uri": source_uri,
             "section_path": " > ".join(section_path),
+            "has_table": has_table,
         })
 
     return chunks
