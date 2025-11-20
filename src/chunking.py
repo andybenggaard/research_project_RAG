@@ -22,7 +22,6 @@ def count_tokens(text: str) -> int:
     """
     return max(1, int(len(text) / 4))
 
-
 # ----------------------------------------
 # Heading detection
 # ----------------------------------------
