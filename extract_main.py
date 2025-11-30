@@ -26,8 +26,8 @@ from dotenv import load_dotenv
 from src.extract_facts import extract_facts
 
 DEFAULT_DB_DIR = "./data/vectors"
-DEFAULT_CACHE_PATH = "./data/cache/facts.json"
-DEFAULT_PROMPT = "prompts/extract_facts.md"
+DEFAULT_CACHE_PATH = "./data/cache/factsV2.json"
+DEFAULT_PROMPT = "prompts/extract_factsV2.md"
 DEFAULT_QUERY = (
     "Extract Scope 1–3 emissions, units, base year, method, assurance level, "
     "2030 targets, carbon intensity, and ESRS E1-4 target details."
