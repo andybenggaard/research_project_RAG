@@ -29,8 +29,7 @@ DEFAULT_DB_DIR = "./data/vectors"
 DEFAULT_CACHE_PATH = "./data/cache/factsV2.json"
 DEFAULT_PROMPT = "prompts/extract_factsV2.md"
 DEFAULT_QUERY = (
-    "Extract Scope 1–3 emissions, units, base year, method, assurance level, "
-    "2030 targets, carbon intensity, and ESRS E1-4 target details."
+    "Scope 1 2 3 emissions, breakdowns, CO2e values, base year, methodology, data quality, emission factors, boundaries, consolidation approach, ESRS E1 targets, 2030 goals, carbon intensity."
 )
 
 
