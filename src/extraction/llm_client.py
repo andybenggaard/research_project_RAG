@@ -13,7 +13,7 @@ import json
 import requests
 import time
 from typing import Dict, Any, Optional, List
-from .config import OLLAMA_HOST, LLM_MODEL
+from ..utils.config import OLLAMA_HOST, LLM_MODEL
 
 
 # -----------------------------------------------------

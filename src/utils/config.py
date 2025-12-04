@@ -8,4 +8,5 @@ LLM_MODEL = os.getenv("LLM_MODEL", "mistral:7b-instruct")
 
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "1100"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "150"))
+TOP_K = int(os.getenv("TOP_K", "40"))
 

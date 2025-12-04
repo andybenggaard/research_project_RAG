@@ -12,10 +12,10 @@ from pathlib import Path
 from typing import List, Dict
 from tqdm import tqdm
 
-from .utils_pdf import extract_pages
-from .chunking import chunk_page
-from .vectordb import get_client, get_collection, upsert_chunks
-from .config import CHUNK_SIZE, CHUNK_OVERLAP
+from .ingestion.pdf_parser import extract_pages
+from .ingestion.chunker import chunk_page
+from .retrieval.vectordb import get_client, get_collection, upsert_chunks
+from .utils.config import CHUNK_SIZE, CHUNK_OVERLAP
 
 
 # How many chunks to embed/upsert in one go.

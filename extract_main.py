@@ -23,7 +23,7 @@ import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 
-from src.extract_facts import extract_facts
+from src.extraction.single_step import extract_facts_single_step
 
 DEFAULT_DB_DIR = "./data/vectors"
 DEFAULT_CACHE_PATH = "./data/cache/factsV2.json"
@@ -63,7 +63,7 @@ def main():
     # Ensure output folder exists
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
 
-    extract_facts(
+    extract_facts_single_step(
         db_dir=args.db,
         query_text=args.query,
         prompt_path=args.prompt,

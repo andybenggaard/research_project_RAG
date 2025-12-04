@@ -3,7 +3,7 @@ import chromadb
 from chromadb.config import Settings
 from typing import List, Dict, Optional
 
-from .embedder_ollama import embed_texts
+from ..ingestion.embedder import embed_texts
 
 
 def get_client(persist_dir: str):
