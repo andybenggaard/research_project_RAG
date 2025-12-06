@@ -1,0 +1,194 @@
+[
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "The undertaking shall disclose its Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "CHP_guidance_v1.0.pdf",
+    "source_page": 16
+  },
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "Companies shall disclose their Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 78
+  },
+  {
+    "requirement_id": "Council_Directive_2015_652_R1",
+    "requirement_text": "The quantity of UERs being claimed shall be reported",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "Council Directive (EU) 2015/652",
+    "source_file": "eu_guidance_note_on_uer_en.pdf",
+    "source_page": 6
+  },
+  {
+    "requirement_id": "Council_Directive_2015_652_R2",
+    "requirement_text": "(a) the starting date of the project ... This must be after 1 January 2011.",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "Council Directive (EU) 2015/652",
+    "source_file": "eu_guidance_note_on_uer_en.pdf",
+    "source_page": 6
+  },
+  {
+    "requirement_id": "Council_Directive_2015_652_R3",
+    "requirement_text": "(b) annual emission reductions in gCO2 eq ...",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "Council Directive (EU) 2015/652",
+    "source_file": "eu_guidance_note_on_uer_en.pdf",
+    "source_page": 6
+  },
+  {
+    "requirement_id": "ISO_14064_R1",
+    "requirement_text": "UERs should be estimated and validated in accordance with principles and standards identified in International Standards, and in particular ISO 14064, ISO 14065 and ISO 14066.",
+    "category": "calculation_method",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ISO 14064",
+    "source_file": "eu_guidance_note_on_uer_en.pdf",
+    "source_page": 6
+  },
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "The disclosure shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 76
+  },
+  {
+    "requirement_id": "ESRS_E1_R2",
+    "requirement_text": "For oil and natural gas systems, emission factors shall be sourced from the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS)",
+    "category": "calculation_method | emission_factors",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 76
+  },
+  {
+    "requirement_id": "ESRS_E1_R3",
+    "requirement_text": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the API Compendium, IPCC Default Emission Factors, or country-specific emission factors (CS)",
+    "category": "calculation_method | emission_factors",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 76
+  },
+  {
+    "requirement_id": "IPCC_4_75_R1",
+    "requirement_text": "The format for summarizing the applied methodology and basis for estimated emissions from oil and natural gas systems should show sample entries (Table 4.2.9)",
+    "category": "boundary_definition",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "IPCC",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 75
+  },
+  {
+    "requirement_id": "IPCC_4_75_R2",
+    "requirement_text": "The code, sector, name, subcategory, source, category, method, activity data, emission factors, type, basis, year, basis/reference date, country, specific values, and updated information should be included in the summarized entries (Table 4.2.9)",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "IPCC",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 75
+  },
+  {
+    "requirement_id": "IPCC_4_75_R3",
+    "requirement_text": "The Table 4.2.9 should include entries for various activities such as Venting, Flaring, All Other (Exploration, Production and Upgrading, Transport, Refining, Distribution of oil products, and Other), and Natural Gas (Venting)",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "IPCC",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 75
+  },
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "The disclosure shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "category": "data_reporting",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 62
+  },
+  {
+    "requirement_id": "ESRS_E1_R2",
+    "requirement_text": "Emission factors shall be sourced from the latest IPCC Assessment Report or equivalent recognized sources",
+    "category": "emission_factors",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 62
+  },
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "Emission factors for fugitive emissions (including venting and flaring) from oil and gas operations in developing countries and countries with economies in transition are provided in Table 4.2.5",
+    "category": "calculation_method | emission_factors",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 58
+  },
+  {
+    "requirement_id": "ESRS_E1_R1",
+    "requirement_text": "Report emission factors for Fugitive Emissions from Oil and Gas Operations in Developing Countries and Countries with Economies in Transition",
+    "category": "emission_factors",
+    "scope": [
+      "Scope 1"
+    ],
+    "mandatory": true,
+    "source_standard": "ESRS E1",
+    "source_file": "V2_4_Ch4_Fugitive_Emissions.pdf",
+    "source_page": 61
+  }
+]

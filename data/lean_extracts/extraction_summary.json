@@ -1,0 +1,31 @@
+{
+  "company": "Maersk",
+  "year": 2023,
+  "extraction_stats": {
+    "total_requirements": 17,
+    "scope1_requirements": 16,
+    "total_facts": 231,
+    "scope1_facts": 51,
+    "total_numeric_values": 385,
+    "scope1_numeric_values": 94,
+    "emission_values": 37,
+    "reduction_targets": 6
+  },
+  "numeric_value_types": {
+    "emission": 37,
+    "other": 39,
+    "reduction_percent": 16,
+    "target": 2
+  },
+  "requirement_categories": {
+    "data_reporting": 9,
+    "calculation_method": 4,
+    "emission_factors": 5,
+    "boundary_definition": 1
+  },
+  "confidence_distribution": {
+    "high": 31,
+    "medium": 8,
+    "low": 12
+  }
+}

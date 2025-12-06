@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "1",
+    "text": "The disclosure shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 2.0,
+        "unit": null,
+        "context": "re shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 4.0,
+        "unit": null,
+        "context": "all include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": "O",
+        "context": "include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 6.0,
+        "unit": null,
+        "context": "n by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "For oil and natural gas systems, emission factors shall be sourced from the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS)",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": "activities",
+        "context": "the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or count",
+        "fact_id": "2",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": "facilities",
+        "context": "for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS)",
+        "fact_id": "2",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "scope1_1",
+    "text": "Climate change: GHG emission intensity (based on revenue)",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "scope1_2",
+    "text": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": null,
+        "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+        "fact_id": "scope1_2",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": null,
+        "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+        "fact_id": "scope1_2",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+        "fact_id": "scope1_2",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "The following new KPIs have been included in our ESG performance data: Climate change: GHG emission intensity (based on revenue) (Maersk Sustainability Report 2023)",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "(based on revenue) (Maersk Sustainability Report 2023)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "ased on revenue) (Maersk Sustainability Report 2023)",
+        "fact_id": "1",
+        "page": 56,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "The reported GHG emissions are from direct consumption at entities/vessels controlled by Maersk.",
+    "page": 57,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "scope1_total",
+    "text": "36,863 (1,000 tonnes CO\u2082 eq)",
+    "page": 25,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "absolute",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 36863.0,
+        "unit": null,
+        "context": "36,863 (1,000 tonnes CO\u2082 eq)",
+        "fact_id": "scope1_total",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 1000.0,
+        "unit": "tonnes CO",
+        "context": "36,863 (1,000 tonnes CO\u2082 eq)",
+        "fact_id": "scope1_total",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "scope1_by_activity",
+    "text": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from our financially controlled operations.",
+    "page": 25,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null
+    },
+    "numeric_values": [
+      {
+        "value": 44.0,
+        "unit": "% Bunker fuel",
+        "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions com",
+        "fact_id": "scope1_by_activity",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 11117.0,
+        "unit": null,
+        "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from",
+        "fact_id": "scope1_by_activity",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 11.0,
+        "unit": "% Other",
+        "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from our finan",
+        "fact_id": "scope1_by_activity",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 1315.0,
+        "unit": null,
+        "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from our financially c",
+        "fact_id": "scope1_by_activity",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 25.0,
+        "unit": "% Direct emissions coming from our financially controlled operations",
+        "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from our financially controlled operations.",
+        "fact_id": "scope1_by_activity",
+        "page": 25,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "fact_1",
+    "text": "36,863 Direct emissions (scope 1)",
+    "page": 2,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "absolute",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 36863.0,
+        "unit": "Direct emissions",
+        "context": "36,863 Direct emissions (scope 1)",
+        "fact_id": "fact_1",
+        "page": 2,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 1.0,
+        "unit": null,
+        "context": "36,863 Direct emissions (scope 1)",
+        "fact_id": "fact_1",
+        "page": 2,
+        "file_name": "maersk-sustainability-report_2021.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "'Reduction in carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer to the accounting policies on p. 55 for more information.",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2020,
+      "target_year": 2030
+    },
+    "numeric_values": [
+      {
+        "value": 203.0,
+        "unit": null,
+        "context": "'Reduction in carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refe",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "emission"
+      },
+      {
+        "value": 0.0,
+        "unit": null,
+        "context": "'Reduction in carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "emission"
+      },
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "n carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer to the accounting",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "emission"
+      },
+      {
+        "value": 0.0,
+        "unit": null,
+        "context": "arbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer to the accounting p",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 55.0,
+        "unit": "for more information",
+        "context": "ed. Please refer to the accounting policies on p. 55 for more information.",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "In 2023, Maersk continued increasing the energy efficiency of our fleet through more fuel-efficient operations and the continuous roll-out of efficiency technologies... Combined with the continued use of second-generation biodiesel in our fleet, we managed to lower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": null,
+      "reduction_percent": -12.38
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "In 2023, Maersk continued increasing the energy efficien",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "In 2023, Maersk continued increasing the energy efficienc",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 13.0,
+        "unit": "in 2022 to a record low of 11",
+        "context": "ower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 68.0,
+        "unit": "in 2023",
+        "context": "e, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "Due to the significantly elevated security risk, Maersk in January 2024 decided that all vessels due to transit the Red Sea / Gulf of Aden will be diverted south around the Cape of Good Hope for the foreseeable future. While this will increase fuel consumption and emissions for the affected vessels, the overall impact on Maersk\u2019s emissions in 2024 is highly uncertain.",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": 2024,
+      "reduction_percent": null
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "icantly elevated security risk, Maersk in January 2024 decided that all vessels due to transit the Red",
+        "fact_id": "3",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 4.0,
+        "unit": "decided that all vessels due to transit the Red Sea",
+        "context": "ntly elevated security risk, Maersk in January 2024 decided that all vessels due to transit the Red Sea / Gulf of Aden will be diverted south around the",
+        "fact_id": "3",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "sels, the overall impact on Maersk\u2019s emissions in 2024 is highly uncertain.",
+        "fact_id": "3",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "emission"
+      },
+      {
+        "value": 4.0,
+        "unit": "is highly uncertain",
+        "context": "s, the overall impact on Maersk\u2019s emissions in 2024 is highly uncertain.",
+        "fact_id": "3",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "In 2023, Maersk continued increasing the energy efficiency of our fleet through more fuel-efficient operations and the continuous roll-out of efficiency technologies on owned and time charter vessels including new and improved propellers, bulbous bows, shore power enablement and tech solutions like the Maersk\u2019s energy efficiency platform StarConnect (read more on p. 45).",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "carbon intensity",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2020,
+      "target_year": 2030,
+      "reduction_percent": null,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "In 2023, Maersk continued increasing the energy efficien",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "In 2023, Maersk continued increasing the energy efficienc",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 45.0,
+        "unit": null,
+        "context": "efficiency platform StarConnect (read more on p. 45).",
+        "fact_id": "1",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Combined with the continued use of second-generation biodiesel in our fleet, we managed to lower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "carbon intensity",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": null,
+      "reduction_percent": 13.4,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 13.0,
+        "unit": "in 2022 to a record low of 11",
+        "context": "ower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 68.0,
+        "unit": "in 2023",
+        "context": "e, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+        "fact_id": "2",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emissions_eeoi",
+    "text": "Actual EEOI in 2023 is 11.68",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "carbon intensity",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2020,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "Actual EEOI in 2023 is 11.68",
+        "fact_id": "scope1_emissions_eeoi",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": "is 11",
+        "context": "Actual EEOI in 2023 is 11.68",
+        "fact_id": "scope1_emissions_eeoi",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 68.0,
+        "unit": null,
+        "context": "Actual EEOI in 2023 is 11.68",
+        "fact_id": "scope1_emissions_eeoi",
+        "page": 21,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "fact_1",
+    "text": "Maersk\u2019s annual Strategic Customer Council (SCC) is a platform for collaborating with our customers\u2019 executive leadership on the future of logistics, where we use the joint problem solving approach to enable scaling of decarbonised logistics solutions on Ocean and beyond.",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "low",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "fact_2",
+    "text": "Maersk partnered with several customers, including Nike and Volvo Group, on strategic sustainability initiatives.",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "low",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "fact_3",
+    "text": "ECO Delivery uptake continues rising",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "low",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "2",
+    "text": "Customers across many segments including Volvo Cars, Nestl\u00e9, BESTSELLER and Novo Nordisk are now moving 100% of their Maersk ocean volumes with ECO Delivery Ocean \u2014 sending a clear signal from larger corporations taking leadership in decarbonising their supply chains.",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "medium",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 100.0,
+        "unit": "% of their Maersk ocean volumes with ECO Delivery Ocean",
+        "context": "estl\u00e9, BESTSELLER and Novo Nordisk are now moving 100% of their Maersk ocean volumes with ECO Delivery Ocean \u2014 sending a clear signal from larger corporations",
+        "fact_id": "2",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "fact_5",
+    "text": "Maersk also continued developing low-emission inland transportation solutions across our wider logistics offerings",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "low",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "fact_6",
+    "text": "HP Inc. partnered with Maersk on an integrated ECO Delivery Ocean and Inland solution",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "low",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "1",
+    "text": "In 2023, Maersk customers shipped higher percentages of their ocean volumes with ECO Delivery Ocean - increasing to 3% in 2023 over 2% in 2022.",
+    "page": 16,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "medium",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": 2023,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "In 2023, Maersk customers shipped higher percentages of",
+        "fact_id": "1",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "In 2023, Maersk customers shipped higher percentages of t",
+        "fact_id": "1",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 3.0,
+        "unit": "% in 2023 over 2",
+        "context": "n volumes with ECO Delivery Ocean - increasing to 3% in 2023 over 2% in 2022.",
+        "fact_id": "1",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "ivery Ocean - increasing to 3% in 2023 over 2% in 2022.",
+        "fact_id": "1",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 2.0,
+        "unit": null,
+        "context": "ry Ocean - increasing to 3% in 2023 over 2% in 2022.",
+        "fact_id": "1",
+        "page": 16,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emissions_total",
+    "text": "Containers per annum (m FFE), serving over 475 ports worldwide: 11.9",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 475.0,
+        "unit": "ports worldwide",
+        "context": "Containers per annum (m FFE), serving over 475 ports worldwide: 11.9",
+        "fact_id": "scope1_emissions_total",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 11.9,
+        "unit": null,
+        "context": "annum (m FFE), serving over 475 ports worldwide: 11.9",
+        "fact_id": "scope1_emissions_total",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_vessels",
+    "text": "670+ Container vessels deployed",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 670.0,
+        "unit": null,
+        "context": "670+ Container vessels deployed",
+        "fact_id": "scope1_vessels",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_methanol_vessels",
+    "text": "Green methanol-enabled vessels on order",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "scope1_warehousing",
+    "text": "7,800k+ sqm warehousing capacity worldwide across 460+ sites",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 7800.0,
+        "unit": "k",
+        "context": "7,800k+ sqm warehousing capacity worldwide across 460+ s",
+        "fact_id": "scope1_warehousing",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 460.0,
+        "unit": null,
+        "context": "7,800k+ sqm warehousing capacity worldwide across 460+ sites",
+        "fact_id": "scope1_warehousing",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_electric_vehicles",
+    "text": "100+ Electric vehicles in operation; 200+ more on order",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 100.0,
+        "unit": null,
+        "context": "100+ Electric vehicles in operation; 200+ more on ord",
+        "fact_id": "scope1_electric_vehicles",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 200.0,
+        "unit": null,
+        "context": "100+ Electric vehicles in operation; 200+ more on order",
+        "fact_id": "scope1_electric_vehicles",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_intermodal_volumes",
+    "text": "4.0 Intermodal volumes managed (m FFE)",
+    "page": 3,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 4.0,
+        "unit": "Intermodal volumes managed",
+        "context": "4.0 Intermodal volumes managed (m FFE)",
+        "fact_id": "scope1_intermodal_volumes",
+        "page": 3,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "s1_boundaries",
+    "text": "In scope (see accounting policies, p. 64)",
+    "page": 13,
+    "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+    "confidence": "high",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 64.0,
+        "unit": null,
+        "context": "In scope (see accounting policies, p. 64)",
+        "fact_id": "s1_boundaries",
+        "page": 13,
+        "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "We value transparency and feedback, which helps us   to improve on the most material ESG aspects.",
+    "page": 64,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "low",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "other"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "3",
+    "text": "Please send your feedback to:   A.P. Moller - Maersk   Esplanaden 50   1098 Copenhagen K   Denmark   Attn: Sustainability   or sustainability@maersk.com",
+    "page": 64,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "low",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "other"
+    },
+    "numeric_values": [
+      {
+        "value": 50.0,
+        "unit": null,
+        "context": "feedback to:   A.P. Moller - Maersk   Esplanaden 50   1098 Copenhagen K   Denmark   Attn: Sustainability",
+        "fact_id": "3",
+        "page": 64,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "low",
+        "value_type": "other"
+      },
+      {
+        "value": 109.0,
+        "unit": null,
+        "context": "back to:   A.P. Moller - Maersk   Esplanaden 50   1098 Copenhagen K   Denmark   Attn: Sustainability",
+        "fact_id": "3",
+        "page": 64,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "low",
+        "value_type": "other"
+      },
+      {
+        "value": 8.0,
+        "unit": "Copenhagen K   Denmark   Attn",
+        "context": "k to:   A.P. Moller - Maersk   Esplanaden 50   1098 Copenhagen K   Denmark   Attn: Sustainability   or sustainability@maersk.com",
+        "fact_id": "3",
+        "page": 64,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "low",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "maersk-fact6",
+    "text": "The undertaking shall disclose its Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": "GHG emissions in metric tonnes of CO2 equivalent",
+        "context": "The undertaking shall disclose its Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+        "fact_id": "maersk-fact6",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "maersk-fact7",
+    "text": "Companies shall disclose their Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": "GHG emissions in metric tonnes of CO2 equivalent",
+        "context": "Companies shall disclose their Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+        "fact_id": "maersk-fact7",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "maersk-fact12",
+    "text": "The disclosure shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "GHG breakdown",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "breakdown"
+    },
+    "numeric_values": [
+      {
+        "value": 2.0,
+        "unit": null,
+        "context": "re shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+        "fact_id": "maersk-fact12",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 4.0,
+        "unit": null,
+        "context": "all include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+        "fact_id": "maersk-fact12",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": "O",
+        "context": "include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+        "fact_id": "maersk-fact12",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 6.0,
+        "unit": null,
+        "context": "n by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+        "fact_id": "maersk-fact12",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+        "fact_id": "maersk-fact12",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "maersk-fact13",
+    "text": "For oil and natural gas systems, emission factors shall be sourced from the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS).",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "emission factors",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "factors"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": "activities",
+        "context": "the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or count",
+        "fact_id": "maersk-fact13",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": "facilities",
+        "context": "for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS).",
+        "fact_id": "maersk-fact13",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "maersk-fact14",
+    "text": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the API Compendium, IPCC Default Emission Factors, or country-specific emission factors (CS).",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "emission factors",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "factors"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": null,
+        "context": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the AP",
+        "fact_id": "maersk-fact14",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the API Co",
+        "fact_id": "maersk-fact14",
+        "page": null,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "low",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "Continued growth in Maersk ECO Delivery saw over 683,000 tonnes GHG savings achieved in 2023.",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 683000.0,
+        "unit": "tonnes GHG savings achieved in 2023",
+        "context": "Continued growth in Maersk ECO Delivery saw over 683,000 tonnes GHG savings achieved in 2023.",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Around 3% of Maersk Ocean volumes are now transported with ECO Delivery Ocean.",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 3.0,
+        "unit": "% of Maersk Ocean volumes are now transported with ECO Delivery Ocean",
+        "context": "Around 3% of Maersk Ocean volumes are now transported with ECO Delivery Ocean.",
+        "fact_id": "2",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "To date over 212 customers have opted for ECO Delivery, and in 2023 global brands such as Nestl\u00e9 and Inditex committed to shipping 100% of the ocean volumes they ship with Maersk via ECO Delivery Ocean.",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "medium",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 212.0,
+        "unit": "customers have opted for ECO Delivery",
+        "context": "To date over 212 customers have opted for ECO Delivery, and in 2023 global brands such as Nestl\u00e9 and Ind",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "212 customers have opted for ECO Delivery, and in 2023 global brands such as Nestl\u00e9 and Inditex committ",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": "global brands such as Nestl",
+        "context": "customers have opted for ECO Delivery, and in 2023 global brands such as Nestl\u00e9 and Inditex committed to shipping 100% of the oc",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      },
+      {
+        "value": 100.0,
+        "unit": "% of the ocean volumes they ship with Maersk via ECO Delivery Ocean",
+        "context": "such as Nestl\u00e9 and Inditex committed to shipping 100% of the ocean volumes they ship with Maersk via ECO Delivery Ocean.",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "medium",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "65%",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": 65,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 65.0,
+        "unit": "%",
+        "context": "65%",
+        "fact_id": "1",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "3%",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "axiom",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": 3,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 3.0,
+        "unit": "%",
+        "context": "3%",
+        "fact_id": "2",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "over 683,000 tonnes GHG savings were achieved",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 683000.0,
+        "unit": "tonnes GHG savings were achieved",
+        "context": "over 683,000 tonnes GHG savings were achieved",
+        "fact_id": "3",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "text": "around 3% of Maersk Ocean volumes are now transported with ECO Delivery Ocean",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "intensity"
+    },
+    "numeric_values": [
+      {
+        "value": 3.0,
+        "unit": "% of Maersk Ocean volumes are now transported with ECO Delivery Ocean",
+        "context": "around 3% of Maersk Ocean volumes are now transported with ECO Delivery Ocean",
+        "fact_id": "4",
+        "page": 22,
+        "file_name": "maersk-sustainability-report-2023-3.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emission_dec_2023",
+    "text": "Fuel oil consumption decreased by 6.5% in 2023 compared to 2022.",
+    "page": 48,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": 2023,
+      "reduction_percent": 6.5
+    },
+    "numeric_values": [
+      {
+        "value": 6.5,
+        "unit": "% in 2023 compared to 2022",
+        "context": "Fuel oil consumption decreased by 6.5% in 2023 compared to 2022.",
+        "fact_id": "scope1_emission_dec_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emission_gas_fuels_2023",
+    "text": "The significant increase of 53% in gas fuels consumption from 2022 to 2023 is driven mainly by the inclusion of LF Logistics, Pilot and Senator for the first time in 2023.",
+    "page": 48,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": 2023,
+      "reduction_percent": null
+    },
+    "numeric_values": [
+      {
+        "value": 53.0,
+        "unit": "% in gas fuels consumption from 2022 to 2023 is driven mainly by the inclusion of LF Logistics",
+        "context": "The significant increase of 53% in gas fuels consumption from 2022 to 2023 is driven mainly by the inclusion of LF Logistics, Pilot and Senator for the first time in 2023.",
+        "fact_id": "scope1_emission_gas_fuels_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      },
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "ogistics, Pilot and Senator for the first time in 2023.",
+        "fact_id": "scope1_emission_gas_fuels_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "stics, Pilot and Senator for the first time in 2023.",
+        "fact_id": "scope1_emission_gas_fuels_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emission_other_fuels_2023",
+    "text": "The significant increase from 2022 to 2023 is because of inclusion of lubricant oils for the first time in 2023.",
+    "page": 48,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": 2023,
+      "reduction_percent": null
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "The significant increase from 2022 to 2023 is because of inclusion of lubricant oil",
+        "fact_id": "scope1_emission_other_fuels_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      },
+      {
+        "value": 2.0,
+        "unit": "to 2023 is because of inclusion of lubricant oils for the first time in 2023",
+        "context": "The significant increase from 2022 to 2023 is because of inclusion of lubricant oils for the first time in 2023.",
+        "fact_id": "scope1_emission_other_fuels_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "other"
+      }
+    ]
+  },
+  {
+    "id": "scope1_emission_electricity_heating_2023",
+    "text": "In 2023, we recorded a 15% reduction in electricity and heating consumption compared to 2022.",
+    "page": 48,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": 2022,
+      "target_year": 2023,
+      "reduction_percent": 15
+    },
+    "numeric_values": [
+      {
+        "value": 202.0,
+        "unit": null,
+        "context": "In 2023, we recorded a 15% reduction in electricity and",
+        "fact_id": "scope1_emission_electricity_heating_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "target"
+      },
+      {
+        "value": 3.0,
+        "unit": null,
+        "context": "In 2023, we recorded a 15% reduction in electricity and h",
+        "fact_id": "scope1_emission_electricity_heating_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "target"
+      },
+      {
+        "value": 15.0,
+        "unit": "% reduction in electricity and heating consumption compared to 2022",
+        "context": "In 2023, we recorded a 15% reduction in electricity and heating consumption compared to 2022.",
+        "fact_id": "scope1_emission_electricity_heating_2023",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "Fuel oils consumption decreased by 6.5% in 2023 compared to 2022.",
+    "page": 48,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 6.5,
+        "unit": "% in 2023 compared to 2022",
+        "context": "Fuel oils consumption decreased by 6.5% in 2023 compared to 2022.",
+        "fact_id": "1",
+        "page": 48,
+        "file_name": "maersk-sustainability-report-2023-2.pdf",
+        "confidence": "high",
+        "value_type": "reduction_percent"
+      }
+    ]
+  },
+  {
+    "id": "1_maersk_2023_total_scope1",
+    "text": "We are this year reporting progress against these targets consisting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+    "page": 2,
+    "file_name": "maersk-crp-2025-1.pdf",
+    "confidence": "high",
+    "fact_type": "claim",
+    "esrs_target": {
+      "target_type": "GHG reduction",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": null,
+        "context": "onsisting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+        "fact_id": "1_maersk_2023_total_scope1",
+        "page": 2,
+        "file_name": "maersk-crp-2025-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      },
+      {
+        "value": 2.0,
+        "unit": "and 3 emissions across Maersk",
+        "context": "isting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+        "fact_id": "1_maersk_2023_total_scope1",
+        "page": 2,
+        "file_name": "maersk-crp-2025-1.pdf",
+        "confidence": "high",
+        "value_type": "emission"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "text": "Please visit the GHG Protocol Initiative website at <www.ghgprotocol.org> for other GHG calculation tools.",
+    "page": 44,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": []
+  },
+  {
+    "id": "2",
+    "text": "(a) the starting date of the project ... This must be after 1 January 2011.",
+    "page": 44,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "fact_type": "definition",
+    "esrs_target": {
+      "target_type": "other",
+      "scope": [
+        "Scope 1"
+      ],
+      "base_year": null,
+      "target_year": null,
+      "reduction_percent": null,
+      "absolute_or_intensity": "absolute"
+    },
+    "numeric_values": [
+      {
+        "value": 1.0,
+        "unit": "January 2011",
+        "context": "arting date of the project ... This must be after 1 January 2011.",
+        "fact_id": "2",
+        "page": 44,
+        "file_name": "maersk-sustainability-report-2023-1.pdf",
+        "confidence": "medium",
+        "value_type": "other"
+      }
+    ]
+  }
+]

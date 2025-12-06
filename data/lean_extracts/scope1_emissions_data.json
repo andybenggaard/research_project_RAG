@@ -1,0 +1,446 @@
+[
+  {
+    "value_tCO2e": 2.0,
+    "unit": null,
+    "context": "re shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "source_fact_id": "1",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 4.0,
+    "unit": null,
+    "context": "all include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "source_fact_id": "1",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": "O",
+    "context": "include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "source_fact_id": "1",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 6.0,
+    "unit": null,
+    "context": "n by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "source_fact_id": "1",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 3.0,
+    "unit": null,
+    "context": "greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "source_fact_id": "1",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": "activities",
+    "context": "the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or count",
+    "source_fact_id": "2",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": "facilities",
+    "context": "for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS)",
+    "source_fact_id": "2",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": null,
+    "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+    "source_fact_id": "scope1_2",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": null,
+    "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+    "source_fact_id": "scope1_2",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 3.0,
+    "unit": null,
+    "context": "Climate change: Biogenic emissions (scope 1, 2, 3)",
+    "source_fact_id": "scope1_2",
+    "page": 56,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1000.0,
+    "unit": "tonnes CO",
+    "context": "36,863 (1,000 tonnes CO\u2082 eq)",
+    "source_fact_id": "scope1_total",
+    "page": 25,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 11117.0,
+    "unit": null,
+    "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from",
+    "source_fact_id": "scope1_by_activity",
+    "page": 25,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1315.0,
+    "unit": null,
+    "context": "44% Bunker fuel, 11,117\n11% Other, 1,315\n25% Direct emissions coming from our financially c",
+    "source_fact_id": "scope1_by_activity",
+    "page": 25,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 36863.0,
+    "unit": "Direct emissions",
+    "context": "36,863 Direct emissions (scope 1)",
+    "source_fact_id": "fact_1",
+    "page": 2,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": null,
+    "context": "36,863 Direct emissions (scope 1)",
+    "source_fact_id": "fact_1",
+    "page": 2,
+    "file_name": "maersk-sustainability-report_2021.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 203.0,
+    "unit": null,
+    "context": "'Reduction in carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refe",
+    "source_fact_id": "1",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 0.0,
+    "unit": null,
+    "context": "'Reduction in carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer",
+    "source_fact_id": "1",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 202.0,
+    "unit": null,
+    "context": "n carbon intensity (Ocean) by 2030 (baseline year 2020)' is calculated. Please refer to the accounting",
+    "source_fact_id": "1",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 13.0,
+    "unit": "in 2022 to a record low of 11",
+    "context": "ower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+    "source_fact_id": "2",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 202.0,
+    "unit": null,
+    "context": "sels, the overall impact on Maersk\u2019s emissions in 2024 is highly uncertain.",
+    "source_fact_id": "3",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 4.0,
+    "unit": "is highly uncertain",
+    "context": "s, the overall impact on Maersk\u2019s emissions in 2024 is highly uncertain.",
+    "source_fact_id": "3",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "medium",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 13.0,
+    "unit": "in 2022 to a record low of 11",
+    "context": "ower our emissions intensity measure, EEOI\u2075, from 13.0 in 2022 to a record low of 11.68 in 2023.",
+    "source_fact_id": "2",
+    "page": 21,
+    "file_name": "maersk-sustainability-report-2023-2.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": "GHG emissions in metric tonnes of CO2 equivalent",
+    "context": "The undertaking shall disclose its Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "source_fact_id": "maersk-fact6",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": "GHG emissions in metric tonnes of CO2 equivalent",
+    "context": "Companies shall disclose their Scope 1 GHG emissions in metric tonnes of CO2 equivalent",
+    "source_fact_id": "maersk-fact7",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": null,
+    "context": "re shall include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "source_fact_id": "maersk-fact12",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 4.0,
+    "unit": null,
+    "context": "all include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "source_fact_id": "maersk-fact12",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": "O",
+    "context": "include a breakdown by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "source_fact_id": "maersk-fact12",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 6.0,
+    "unit": null,
+    "context": "n by greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "source_fact_id": "maersk-fact12",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 3.0,
+    "unit": null,
+    "context": "greenhouse gas (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3).",
+    "source_fact_id": "maersk-fact12",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": "activities",
+    "context": "the IPCC Emission Factor Database (EFDB) for Tier 1 activities, industry surveys for Tier 2 facilities, or count",
+    "source_fact_id": "maersk-fact13",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": "facilities",
+    "context": "for Tier 1 activities, industry surveys for Tier 2 facilities, or country-specific emission factors (CS).",
+    "source_fact_id": "maersk-fact13",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": null,
+    "context": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the AP",
+    "source_fact_id": "maersk-fact14",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 3.0,
+    "unit": null,
+    "context": "For other emissions from Energy Production (1.B.3), emission factors can be sourced from the API Co",
+    "source_fact_id": "maersk-fact14",
+    "page": null,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "low",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 683000.0,
+    "unit": "tonnes GHG savings achieved in 2023",
+    "context": "Continued growth in Maersk ECO Delivery saw over 683,000 tonnes GHG savings achieved in 2023.",
+    "source_fact_id": "1",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 683000.0,
+    "unit": "tonnes GHG savings were achieved",
+    "context": "over 683,000 tonnes GHG savings were achieved",
+    "source_fact_id": "3",
+    "page": 22,
+    "file_name": "maersk-sustainability-report-2023-3.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 1.0,
+    "unit": null,
+    "context": "onsisting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+    "source_fact_id": "1_maersk_2023_total_scope1",
+    "page": 2,
+    "file_name": "maersk-crp-2025-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  },
+  {
+    "value_tCO2e": 2.0,
+    "unit": "and 3 emissions across Maersk",
+    "context": "isting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+    "source_fact_id": "1_maersk_2023_total_scope1",
+    "page": 2,
+    "file_name": "maersk-crp-2025-1.pdf",
+    "confidence": "high",
+    "scope": [
+      "Scope 1"
+    ]
+  }
+]

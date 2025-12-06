@@ -1,0 +1,607 @@
+{
+  "test_config": {
+    "broad_requirements_count": 7,
+    "atomic_queries_count": 18,
+    "year": 2023,
+    "max_rounds": 3,
+    "answerability_probe_enabled": true
+  },
+  "broad_requirements": [
+    "Report total Scope 1 GHG emissions in tonnes CO2 equivalent for the reporting period",
+    "Provide breakdown of Scope 1 emissions by greenhouse gas type (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3)",
+    "Report Scope 1 emissions by source category: stationary combustion, mobile combustion, fugitive emissions, and process emissions",
+    "Disclose emission factors used in Scope 1 calculations, including source (IPCC, EPA, DEFRA) and values with units",
+    "Describe the consolidation approach for organizational boundaries (financial control, operational control, or equity share)",
+    "Report energy consumption from Scope 1 fuels broken down by fuel type (natural gas, diesel, gasoline, fuel oil, coal)",
+    "Disclose any Scope 1 emissions reduction targets, including base year, target year, and percentage reduction (absolute or intensity-based)"
+  ],
+  "atomic_queries": [
+    {
+      "query_id": "Q001",
+      "question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_gas",
+      "keywords": [
+        "Scope 1",
+        "CO2",
+        "carbon dioxide",
+        "emissions",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "CO2 from Scope 1",
+        "carbon dioxide direct emissions",
+        "Scope 1 CO2"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.32
+    },
+    {
+      "query_id": "Q005",
+      "question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_gas",
+      "keywords": [
+        "Scope 1",
+        "PFCs",
+        "perfluorocarbons",
+        "emissions",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "PFCs Scope 1",
+        "perfluorocarbon emissions",
+        "direct PFC emissions"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.24000000000000005
+    },
+    {
+      "query_id": "Q006",
+      "question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_gas",
+      "keywords": [
+        "Scope 1",
+        "SF6",
+        "sulfur hexafluoride",
+        "emissions",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "SF6 Scope 1",
+        "sulfur hexafluoride emissions",
+        "direct SF6 emissions"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.4
+    },
+    {
+      "query_id": "Q007",
+      "question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_gas",
+      "keywords": [
+        "Scope 1",
+        "NF3",
+        "nitrogen trifluoride",
+        "emissions",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "NF3 Scope 1",
+        "nitrogen trifluoride emissions",
+        "direct NF3 emissions"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.4
+    },
+    {
+      "query_id": "Q001",
+      "question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "GJ",
+        "gigajoules"
+      ],
+      "scope": "Scope 1",
+      "category": "energy_consumption",
+      "keywords": [
+        "Scope 1",
+        "natural gas",
+        "fuel",
+        "energy",
+        "consumption",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "Scope 1 natural gas consumption",
+        "natural gas fuel usage",
+        "natural gas energy consumption in Scope 1"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.5
+    },
+    {
+      "query_id": "Q002",
+      "question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "GJ",
+        "gigajoules"
+      ],
+      "scope": "Scope 1",
+      "category": "energy_consumption",
+      "keywords": [
+        "Scope 1",
+        "diesel",
+        "fuel",
+        "energy",
+        "consumption",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "Scope 1 diesel consumption",
+        "diesel fuel usage",
+        "diesel energy consumption in Scope 1"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.5
+    },
+    {
+      "query_id": "Q003",
+      "question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "GJ",
+        "gigajoules"
+      ],
+      "scope": "Scope 1",
+      "category": "energy_consumption",
+      "keywords": [
+        "Scope 1",
+        "gasoline",
+        "fuel",
+        "energy",
+        "consumption",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "Scope 1 gasoline consumption",
+        "gasoline fuel usage",
+        "gasoline energy consumption in Scope 1"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.5
+    },
+    {
+      "query_id": "Q004",
+      "question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "GJ",
+        "gigajoules"
+      ],
+      "scope": "Scope 1",
+      "category": "energy_consumption",
+      "keywords": [
+        "Scope 1",
+        "fuel oil",
+        "heating oil",
+        "energy",
+        "consumption",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "Scope 1 fuel oil consumption",
+        "heating oil usage",
+        "fuel oil energy consumption in Scope 1"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.5666666666666667
+    },
+    {
+      "query_id": "Q005",
+      "question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "GJ",
+        "gigajoules"
+      ],
+      "scope": "Scope 1",
+      "category": "energy_consumption",
+      "keywords": [
+        "Scope 1",
+        "coal",
+        "fuel",
+        "energy",
+        "consumption",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "Scope 1 coal consumption",
+        "coal fuel usage",
+        "coal energy consumption in Scope 1"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.4
+    },
+    {
+      "query_id": "Q001",
+      "question": "Base year for Scope 1 emissions reduction targets",
+      "expected_answer_type": "date",
+      "unit_candidates": [
+        "year"
+      ],
+      "scope": "Scope 1",
+      "category": "targets",
+      "keywords": [
+        "base year",
+        "Scope 1",
+        "emissions reduction",
+        "target",
+        "ESRS E1"
+      ],
+      "semantic_hints": [
+        "initial year for emissions targets",
+        "baseline year",
+        "emission reductions in Scope 1"
+      ],
+      "validation_rules": {
+        "must_be_date": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.48
+    },
+    {
+      "query_id": "Q002",
+      "question": "Target year for Scope 1 emissions reduction targets",
+      "expected_answer_type": "date",
+      "unit_candidates": [
+        "year"
+      ],
+      "scope": "Scope 1",
+      "category": "targets",
+      "keywords": [
+        "target year",
+        "Scope 1",
+        "emissions reduction",
+        "goal",
+        "ESRS E1"
+      ],
+      "semantic_hints": [
+        "end year for emissions reductions targets",
+        "target date",
+        "desired future state"
+      ],
+      "validation_rules": {
+        "must_be_date": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.24
+    },
+    {
+      "query_id": "Q003",
+      "question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "percent",
+        "%"
+      ],
+      "scope": "Scope 1",
+      "category": "targets",
+      "keywords": [
+        "absolute reduction",
+        "percentage decrease",
+        "Scope 1 emissions",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "reduction targets in absolute terms",
+        "emission reductions in Scope 1 compared to a base year"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_be_percentage": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.35
+    },
+    {
+      "query_id": "Q001_refined",
+      "question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "total_emissions",
+      "keywords": [
+        "Scope 1",
+        "total",
+        "GHG",
+        "emissions",
+        "tCO2e",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "direct emissions from owned sources",
+        "total Scope 1 GHG",
+        "Scope 1 CO2 equivalent"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.4
+    },
+    {
+      "query_id": "Q002_refined1",
+      "question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "total_emissions",
+      "keywords": [
+        "Scope 1",
+        "total",
+        "GHG",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "direct emissions from owned sources",
+        "total Scope 1 GHG",
+        "Scope 1 CO2 equivalent"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.6
+    },
+    {
+      "query_id": "Q003_refined",
+      "question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_gas",
+      "keywords": [
+        "Scope 1",
+        "N2O",
+        "nitrous oxide",
+        "emissions",
+        "{{reporting_year}}",
+        "maritime operations"
+      ],
+      "semantic_hints": [
+        "nitrous oxide Scope 1 from maritime operations",
+        "N2O direct emissions from maritime operations",
+        "N2O from combustion in maritime operations"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_year": true,
+        "must_mention_scope_1": true,
+        "must_mention_maritime_operations": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.3
+    },
+    {
+      "query_id": "Q002_refined",
+      "question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}",
+      "expected_answer_type": "list",
+      "unit_candidates": [
+        "kg CO2e/t",
+        "t CO2e/MWh"
+      ],
+      "scope": "Scope 1",
+      "category": "emission_factor",
+      "keywords": [
+        "Scope 1",
+        "emission factors",
+        "EPA",
+        "source",
+        "units",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "emission factor sources for Scope 1",
+        "fossil fuel combustion emissions factors",
+        "CO2e units"
+      ],
+      "validation_rules": {
+        "must_contain_list": true,
+        "must_mention_source": [
+          "EPA"
+        ]
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.3666666666666666
+    },
+    {
+      "query_id": "Q003_refined",
+      "question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}",
+      "expected_answer_type": "list",
+      "unit_candidates": [
+        "kg CO2e/t",
+        "t CO2e/MWh"
+      ],
+      "scope": "Scope 1",
+      "category": "emission_factor",
+      "keywords": [
+        "Scope 1",
+        "emission factors",
+        "DEFRA",
+        "source",
+        "units",
+        "ESRS E1",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "emission factor sources for Scope 1",
+        "fossil fuel combustion emissions factors",
+        "CO2e units"
+      ],
+      "validation_rules": {
+        "must_contain_list": true,
+        "must_mention_source": [
+          "DEFRA"
+        ]
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.3428571428571428
+    },
+    {
+      "query_id": "Q001_refined_2",
+      "question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}",
+      "expected_answer_type": "number",
+      "unit_candidates": [
+        "tonnes CO2e",
+        "tCO2e",
+        "kt CO2e"
+      ],
+      "scope": "Scope 1",
+      "category": "emissions_by_source",
+      "keywords": [
+        "Scope 1",
+        "stationary combustion",
+        "boilers and furnaces",
+        "emissions",
+        "{{unit_candidates}}",
+        "{{reporting_year}}"
+      ],
+      "semantic_hints": [
+        "stationary combustion emissions",
+        "boilers and furnaces",
+        "on-site fuel burning"
+      ],
+      "validation_rules": {
+        "must_contain_number": true,
+        "must_contain_unit": true,
+        "must_mention_scope_1": true
+      },
+      "is_atomic": true,
+      "is_answerable": true,
+      "validation_errors": [],
+      "retrieval_score": 0.3333333333333333
+    }
+  ]
+}

@@ -1,0 +1,3861 @@
+{
+  "company": "Maersk",
+  "year": 2023,
+  "total_atomic_queries": 18,
+  "total_facts_extracted": 170,
+  "facts": [
+    {
+      "id": "scope1_co2_emissions_tonnes_2023",
+      "page": 30,
+      "text": "Extracted information could not be found. The evidence does not contain specific Scope 1 CO\u2082 emissions in tonnes CO\u2082e for 2023.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-yearly-report_2022.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 7,
+      "text": "Scope 1 emissions have been reported in accordance with SECR requirements.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Scope 1 emissions have been reported in accordance with SECR requirements."
+      ],
+      "file_name": "maersk-crp-2025-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 7,
+      "text": "Scope 1 and Scope 2 emissions have been reported in accordance with SECR requirements.",
+      "confidence": "low",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "SECR requirements"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 tCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Total GHG emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "34,138 tCO2e (scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Scope 1 emissions \u2013 from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 tCO\u2082e (Scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions \u2013 from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 CO2 emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "scope1-pfc-emissions-maersk-2023",
+      "page": 20,
+      "text": "34,138 tCO2e (Scope 1 emissions \u2013 from financially controlled own operations)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "tCO2e",
+        "Scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 tCO2e (exact)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "[79,462]"
+      ],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "34,138 Scope 1 emissions \u2013 from financially controlled own operations (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": 2022,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "scope1_emissions_pfc",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions:",
+        "35%"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 PFCs emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Total GHG emissions: 79,462 (2023)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Total GHG emissions",
+        "Scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 (2023)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "scope1_sf6_emissions",
+      "page": 20,
+      "text": "444 SF\u2086 emissions in Scope 1 (tonnes CO\u2082e equivalent)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "SF\u2086 emissions in Scope 1"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 tCO2e (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "Scope 3 emissions \u2013 created in the value chain as result of Maersk\u2019s business activities: 54,938 tCO2e (2023)",
+      "confidence": "low",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 20,
+      "text": "Scope 1 emissions from our ocean operations related to fuel use: 32,485 tCO2e (92%)",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "34,138 tCO2e (total Scope 1)",
+        "92% of the emissions come from our ocean operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 20,
+      "text": "Scope 2 emissions \u2013 from generation of purchased electricity (location-based): 44,938 tCO2e (2023)",
+      "confidence": "low",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "scope1_sf6_emissions_tonnes_co2e",
+      "page": 19,
+      "text": "Scope 1: Own operations: 35% Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Own operations",
+        "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 19,
+      "text": "Absolute reduction in scope 3 well-to-wake emissions from subcontracted container shipping operations: 17%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "reduction_percent": 17,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 19,
+      "text": "Renewable electricity sourcing: 100%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "renewable fuels",
+        "scope": [
+          "Scope 2"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q006",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 SF6 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Total GHG emissions: 79,462 tCO2e (reported), 82,877 tCO2e (forecast)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Total GHG emissions: 79,462 tCO2e (reported)",
+        "Total GHG emissions: 82,877 tCO2e (forecast)"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 tCO2e (reported), 34,453 tCO2e (forecast)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 tCO2e (reported)",
+        "Scope 1 emissions \u2013 from financially controlled own operations: 34,453 tCO2e (forecast)"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "34,138 Scope 1 emissions \u2013 from financially controlled own operations (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "34,138 (34,453) Scope 1 emissions \u2013 from financially controlled own operations. Where 92% of the emissions come from our ocean operations related to fuel use.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "34,138 Scope 1 emissions",
+        "92% of emissions come from ocean operations",
+        "fuel use"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q007",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 NF3 emissions in tonnes CO2e equivalent for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [
+        "[]"
+      ],
+      "components": [
+        "Scope 1 emissions definition"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022 Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel   and kerosene \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas \u2022 Other fuels, incl. heating oil and cylinder oil \u2022 Electricity and heating",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [
+        "[]"
+      ],
+      "components": [
+        "Scope 1 emissions breakdown"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "low",
+      "fact_type": "formula",
+      "citations": [
+        "[]"
+      ],
+      "components": [
+        "Total Scope 1 emissions calculation"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "fossil energy consumption definition"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022 Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas \u2022 Other fuels, incl. heating oil and cylinder oil",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "fossil energy components"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Renewable energy consumption encompasses all renewable energy consumption, incl. renewable electricity, heating and green fuels that are consumed at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "renewable energy components"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "low",
+      "fact_type": "formula",
+      "citations": [],
+      "components": [
+        "total energy consumption formula"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 56,
+      "text": "The share of renewable energy is the percentage of total energy consumption that is derived from renewable energy sources.",
+      "confidence": "low",
+      "fact_type": "formula",
+      "citations": [],
+      "components": [
+        "share of renewable energy formula"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "6",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million), as stated in the Annual Report.",
+      "confidence": "low",
+      "fact_type": "formula",
+      "citations": [],
+      "components": [
+        "energy intensity formula"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "7",
+      "page": 56,
+      "text": "Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene are fossil fuels consumed by Maersk.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "components": [
+        "fuel oil consumption"
+      ],
+      "esrs_target": {
+        "target_type": "number",
+        "scope": [
+          "Scope 1"
+        ],
+        "unit": "GJ"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "8",
+      "page": 56,
+      "text": "Natural gas is a fossil fuel consumed by Maersk.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "components": [
+        "natural gas consumption"
+      ],
+      "esrs_target": {
+        "target_type": "number",
+        "scope": [
+          "Scope 1"
+        ],
+        "unit": "GJ"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "9",
+      "page": 56,
+      "text": "Renewable electricity, including solar panels, wind turbines, and batteries, is consumed by Maersk.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "components": [
+        "renewable electricity consumption"
+      ],
+      "esrs_target": {
+        "target_type": "number",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "10",
+      "page": 56,
+      "text": "Biofuels and green methanol are green fuels consumed by Maersk.",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "components": [
+        "green fuel consumption"
+      ],
+      "esrs_target": {
+        "target_type": "number",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1-energy_consumption_natural_gas",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels. Fossil energy consumption includes the following: \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas",
+      "confidence": "high",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "carbon intensity",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Gas fuels: LPG, LNG, natural gas"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 GJ (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "carbon intensity",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations",
+        "GJ"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "44,938 GJ (Scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from natural gas in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption includes fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "definition of fossil energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption also includes gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "additional definition of fossil energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Fossil energy consumption also includes other fuels, incl. heating oil and cylinder oil",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "additional definition of fossil energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million)",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "definition of energy intensity"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "fossil energy consumption",
+        "Maersk controlled entities/vessels"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022  Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene \u2022  Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas \u2022  Other fuels, incl. heating oil and cylinder oil \u2022  Electricity and heating",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "fossil energy components"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Renewable energy consumption encompasses all renewable energy consumption, incl. renewable electricity, heating and green fuels that are consumed at Maersk controlled entities/vessels.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "renewable energy consumption",
+        "Maersk controlled entities/vessels"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "total energy consumption"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 56,
+      "text": "The share of renewable energy is the percentage of total energy consumption that is derived from renewable energy sources.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "share of renewable energy"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "6",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million), as stated in the Annual Report.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "energy intensity"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [
+        "[56]"
+      ],
+      "components": [
+        "Fossil energy consumption definition"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022 Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas \u2022 Other fuels, incl. heating oil and cylinder oil \u2022 Electricity and heating",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "[56]"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Fossil energy consumption breakdown"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "fact_1",
+      "page": 2,
+      "text": "Diesel: 1,000 tonnes",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Diesel"
+      ],
+      "file_name": "maersk-esg-data-table_2021.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 GJ (Scope 1 emissions \u2013 from financially controlled own operations)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "79,462 GJ"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from diesel in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "f1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "f2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022 Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel   and kerosene \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas  (LNG) and natural gas \u2022 Other fuels, incl. heating oil and cylinder oil \u2022 Electricity and heating",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "f3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "fossil energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene, gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas, other fuels, incl. heating oil and cylinder oil, electricity and heating.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "fossil energy consumption",
+        "fuel oil",
+        "heavy fuel oil",
+        "marine diesel oil",
+        "gasoline",
+        "diesel",
+        "kerosene",
+        "gas fuels",
+        "liquified petroleum gas (LPG)",
+        "liquefied natural gas (LNG)",
+        "natural gas",
+        "other fuels",
+        "heating oil",
+        "cylinder oil",
+        "electricity and heating"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "total energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million), as stated in the Annual Report.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "energy intensity"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 56,
+      "text": "Fossil energy consumption includes electricity and heating.",
+      "confidence": "high",
+      "fact_type": "formula",
+      "citations": [],
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "6",
+      "page": 56,
+      "text": "Renewable energy consumption encompasses all renewable energy consumption, incl. renewable electricity, heating and green fuels that are consumed at Maersk controlled entities/vessels.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "renewable energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "7",
+      "page": 56,
+      "text": "Renewable electricity includes electricity from solar panels, wind turbines, and batteries, covering on-site self-generated and purchased renewable electricity from the grid.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "renewable electricity"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "8",
+      "page": 56,
+      "text": "Green fuels, include biofuels and green methanol.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "green fuels"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "9",
+      "page": 56,
+      "text": "The share of renewable energy is the percentage of total energy consumption that is derived from renewable energy sources.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "share of renewable energy"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "10",
+      "page": 56,
+      "text": "Total energy consumption is reported in the Annual Report.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "total energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption includes fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene (1.1)",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [
+        "1"
+      ],
+      "components": [
+        "Fossil energy consumption includes",
+        "fuel oil",
+        "heavy fuel oil",
+        "marine diesel oil",
+        "gasoline",
+        "diesel",
+        "kerosene"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Energy consumption from gasoline in GJ: Not available (1.1)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption (1.3)",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [
+        "1"
+      ],
+      "components": [
+        "Total energy consumption is",
+        "the sum of",
+        "fossil energy consumption",
+        "and",
+        "renewable energy consumption"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 57,
+      "text": "Fuel and energy related activities are reported based on actual fuel procured and consumed. (Category 3)",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report_2021.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 2,
+      "text": "Gasoline: 1,000 tonnes (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Gasoline: 1,000 tonnes"
+      ],
+      "file_name": "maersk-esg-data-table_2021.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from gasoline in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "Fossil energy consumption definition"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022 Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene \u2022 Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas \u2022 Other fuels, incl. heating oil and cylinder oil \u2022 Electricity and heating",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "components": [
+        "Fossil energy consumption components"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "medium",
+      "fact_type": "formula",
+      "components": [
+        "Total energy consumption formula"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption includes fuel oil, gas fuels, other fuels, electricity and heating.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "fuel oil",
+        "gas fuels",
+        "other fuels",
+        "electricity",
+        "heating"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Renewable energy consumption encompasses renewable electricity, heating and green fuels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "renewable electricity",
+        "green fuels"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "medium",
+      "fact_type": "formula",
+      "components": [
+        "fossil energy consumption",
+        "renewable energy consumption"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "The share of renewable energy is the percentage of total energy consumption that is derived from renewable energy sources.",
+      "confidence": "medium",
+      "fact_type": "formula",
+      "components": [
+        "renewable energy",
+        "total energy consumption"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million)",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "total energy consumption",
+        "revenue"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1-fuel_oil_gj",
+      "page": 56,
+      "text": "Fuel oil consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "fossil energy consumption",
+        "Fuel oil",
+        "heavy fuel oil",
+        "marine diesel oil",
+        "gasoline",
+        "diesel",
+        "kerosene"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2-fuel_oil_gj",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "total energy consumption",
+        "fossil energy consumption",
+        "renewable energy consumption"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 48,
+      "text": "Fuel oils GWh: 112,971 (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "carbon intensity",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 48,
+      "text": "Fuel oils: 112,971 GWh (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "[48]"
+      ],
+      "esrs_target": {
+        "target_type": null,
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Fossil energy consumption",
+        "Climate change",
+        "Fuel oils"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q004",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from fuel oil in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 44,938 GJ (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations",
+        "in GJ"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 79,462 GJ (Gigajoules)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "carbon intensity",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations",
+        "79,462 GJ (Gigajoules)"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "444 GJ (Scope 1)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "GHG emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumption that is consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes the following: \u2022  Fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel   and kerosene \u2022  Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas  (LNG) and natural gas \u2022  Other fuels, incl. heating oil and cylinder oil \u2022  Electricity and heating",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "medium",
+      "fact_type": "formula",
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 56,
+      "text": "Fossil energy consumption encompasses all fossil-based energy consumed/combusted at Maersk controlled entities/vessels.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "Fossil energy consumption definition"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 56,
+      "text": "Fossil energy consumption includes fuel oil, incl. heavy fuel oil, marine diesel oil, gasoline, diesel and kerosene, Gas fuels, incl. liquified petroleum gas (LPG), liquefied natural gas (LNG) and natural gas, Other fuels, incl. heating oil and cylinder oil.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "Fossil energy consumption components"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 56,
+      "text": "Total energy consumption is the sum of fossil energy consumption and renewable energy consumption.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "Total energy consumption definition"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 56,
+      "text": "The share of renewable energy is the percentage of total energy consumption that is derived from renewable energy sources.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "Share of renewable energy definition"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 56,
+      "text": "Energy intensity is the total energy consumption per unit of revenue (million), as stated in the Annual Report.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "components": [
+        "Energy intensity definition"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "6",
+      "page": 56,
+      "text": "In 2023, the energy consumption from coal in Scope 1 is not reported explicitly.",
+      "confidence": "high",
+      "fact_type": "exclusion",
+      "citations": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q005",
+      "atomic_query_category": "energy_consumption",
+      "atomic_question": "Energy consumption from coal in Scope 1 in GJ for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "- Base year for Scope 1 emissions reduction targets is not explicitly stated in the evidence. However, a recalculated baseline of the 2022 emissions is mentioned, which might indicate that the 2022 data serves as the base year.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": 2022,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Base year",
+        "reduction targets"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "base_year_scope1",
+      "page": 20,
+      "text": "-6.4 (baseline recalculation led to a 6% increase of previously stated emissions)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "baseline recalculation led to a 6% increase of previously stated emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "base_scope1_emission_target_year",
+      "page": 20,
+      "text": "Base year for Scope 1 emissions reduction targets is not explicitly stated.",
+      "confidence": "low",
+      "fact_type": "definition",
+      "components": [
+        "Scope 1 emissions reduction targets",
+        "base year"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "baseline_recalculation",
+      "page": 20,
+      "text": "The 2022 baseline has been recalculated, leading to a 6% increase of previously stated emissions.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "components": [
+        "2022 baseline",
+        "recalculation",
+        "6% increase"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "scope1_emissions_footprint",
+      "page": 20,
+      "text": "In 2023, Maersk had a total GHG footprint of 79.5 million tonnes, a decrease of 4.1% compared to 2022.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ]
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1-1",
+      "page": 19,
+      "text": "Base year for Scope 1 emissions reduction targets: 2022",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": 2022,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Baseline year for Scope 1 emissions reduction targets",
+        "Base year"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Base year for Scope 1 emissions reduction targets: 2022",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": 2022,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Baseline year for Scope 1 emissions reduction targets:",
+        "Base year: 2022"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001",
+      "atomic_query_category": "targets",
+      "atomic_question": "Base year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "target_scope1_reduction",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "citations": [],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "citations": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1",
+      "page": 7,
+      "text": "Scope 1 emissions have been reported in accordance with SECR requirements.",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [
+        "B9F149ED-D12D-4CEC-8986-648913ACA31B"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "reported in accordance with SECR requirements"
+      ],
+      "file_name": "maersk-crp-2025-1.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "1",
+      "page": 7,
+      "text": "This Carbon Reduction Plan has been completed in accordance with PPN 06/21 and associated guidance and reporting standard for Carbon Reduction Plans.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "Carbon Reduction Plan"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "2",
+      "page": 7,
+      "text": "Emissions have been reported and recorded in accordance with the published reporting standard for Carbon Reduction Plans and the GHG Reporting Protocol corporate standard.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "reporting standard"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "3",
+      "page": 7,
+      "text": "The required subset of Scope 3 emissions have been reported in accordance with the published reporting standard for Carbon Reduction Plans.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "subset of Scope 3 emissions"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "4",
+      "page": 7,
+      "text": "This Carbon Reduction Plan has been reviewed and signed off by the board of directors (or equivalent management body).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "Carbon Reduction Plan"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q002",
+      "atomic_query_category": "targets",
+      "atomic_question": "Target year for Scope 1 emissions reduction targets"
+    },
+    {
+      "id": "fact_scope1_percentage_reduction_2023",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "targets",
+      "atomic_question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}"
+    },
+    {
+      "id": "abs_reduction_scope1_ownops",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "targets",
+      "atomic_question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "targets",
+      "atomic_question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 48,
+      "text": "Fuel oils consumption decreased by 6.5% in 2023 compared to 2022.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Fuel oils: 112,971 GWh (2023)",
+        "- Fuel oil consumption decreased by 6.5% in 2023 compared to 2022."
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "targets",
+      "atomic_question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}"
+    },
+    {
+      "id": "maersk_reduction_target_scope1",
+      "page": 48,
+      "text": "Fuel oil consumption decreased by 6.5% in 2023 compared to 2022",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 6.5,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003",
+      "atomic_query_category": "targets",
+      "atomic_question": "Percentage reduction target (absolute) for Scope 1 emissions in {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations: 96%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 96,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 19,
+      "text": "Absolute reduction in scope 3 well-to-wake emissions from subcontracted container shipping operations: 17%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "reduction_percent": 17,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "4",
+      "page": 19,
+      "text": "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from subcontracted container shipping operations: 97%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 3"
+        ],
+        "reduction_percent": 97,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "5",
+      "page": 19,
+      "text": "Renewable electricity sourcing: 100%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 2"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": "100%"
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 48,
+      "text": "Fuel oils: 112,971 GWh (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Fossil energy consumption",
+        "Climate change",
+        "Fuel oils"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 48,
+      "text": "Fuel oils: 112,971 GWh (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Fuel oils"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001_refined",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Total Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "scope1_emissions_2023",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35
+      },
+      "citations": [
+        ""
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 (Scope 1 emissions \u2013 from financially controlled own operations)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "444 (Scope 2 emissions \u2013 from generation of purchased electricity)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "absolute_or_intensity": "other"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Total GHG emissions: 79,462 tCO2e (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Total GHG emissions",
+        "Including scope 1, scope 2 (location-based), and scope 3 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 tCO2e (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Scope 1 emissions",
+        "from financially controlled own operations",
+        "Where 92% of the emissions come from our ocean operations related to fuel use"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined1",
+      "atomic_query_category": "total_emissions",
+      "atomic_question": "Scope 1 GHG emissions in tonnes CO2e for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations: 96%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 96,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Maritime operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "fact1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "s1_n2o_emissions_maersk_2023",
+      "page": 2,
+      "text": "",
+      "confidence": "low",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "We continue to internally track and externally report on strategic KPIs on efficiency in our Ocean business",
+        "and the commercial uptake of the ECO Delivery Ocean product"
+      ],
+      "file_name": "maersk-crp-2025-1.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "1",
+      "page": 2,
+      "text": "For the first time, we are this year reporting progress against these targets consisting of absolute reduction targets for scope 1, 2 and 3 emissions across Maersk",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [
+        "B9F149ED-D12D-4CEC-8986-648913ACA31B"
+      ],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "reporting progress against these targets",
+        "absolute reduction targets for scope 1, 2 and 3 emissions across Maersk"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "2",
+      "page": 2,
+      "text": "The sub-targets for maritime operations cover well-to-wake emissions, including emissions relating to the entire process from fuel production and delivery to the actual combustion onboard the vessels.",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [
+        "B9F149ED-D12D-4CEC-8986-648913ACA31B"
+      ],
+      "components": [
+        "sub-targets for maritime operations",
+        "well-to-wake emissions",
+        "emissions relating to the entire process from fuel production and delivery to the actual combustion onboard the vessels"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "3",
+      "page": 2,
+      "text": "We continue to internally track and externally report on strategic KPIs on efficiency in our Ocean business and the commercial uptake of the ECO Delivery Ocean product",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [
+        "B9F149ED-D12D-4CEC-8986-648913ACA31B"
+      ],
+      "components": [
+        "We continue to internally track and externally report on strategic KPIs",
+        "efficiency in our Ocean business",
+        "the commercial uptake of the ECO Delivery Ocean product"
+      ],
+      "file_name": "maersk-crp-2025.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emissions_by_gas",
+      "atomic_question": "Scope 1 N2O emissions in tonnes CO2e for {{reporting_year}} from maritime operations"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Emission factor for own container shipping operations: 35% absolute reduction in scope 1 and 3 well-to-wake emissions",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": true,
+        "factor_value": 0.35,
+        "factor_unit": "%",
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": true,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Emission factor for Scope 1 own operations: 35% absolute reduction in emissions from own container shipping operations (no unit provided)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "35% absolute reduction in Scope 1 and Scope 3 well-to-wake emissions from own container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "No emission factor provided for Scope 1 subcontracted container shipping operations",
+      "confidence": "low",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": null
+      },
+      "components": [
+        "17% absolute reduction in Scope 3 well-to-wake emissions from subcontracted container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Emission factor for Scope 1 own operations in Maersk: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in Scope 1 emissions from own operations: 35%"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Emission factor for Scope 1 subcontracted container shipping operations in Maersk: 17%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 17,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Absolute reduction in Scope 3 emissions from subcontracted container shipping operations: 17%"
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Total GHG emissions: 79,462 (actual), (82,877) (estimated)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [
+        "(82,877)"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 (actual), (34,453) (estimated)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [
+        "(34,453)"
+      ],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 20,
+      "text": "Scope 1 emissions from our ocean operations related to fuel use: 92%",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "other"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 34,138 t CO\u2082e (2023)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q002_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for EPA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 55,
+      "text": "Emission conversions and calculations GHG emissions are calculated using conversion factors for energy consumption and other GHG gases. Primary schemes used are AR6 (updated 2022), EMEP/EEA air pollutant emission inventory guidebook (2019 database), IEA (updated 2023), GLEC Framework (updated 2023), DEFRA (updated 2022) and CEDA6 (updated in 2022).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Schemes used for emission conversions and calculations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 55,
+      "text": "Primary schemes used for emission conversions and calculations in 2023 are AR6 (updated 2022), EMEP/EEA air pollutant emission inventory guidebook (2019 database), IEA (updated 2023), GLEC Framework (updated 2023), DEFRA (updated 2022) and CEDA6 (updated in 2022).",
+      "confidence": "medium",
+      "fact_type": "definition",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Emission conversions and calculations",
+        "Schemes used in 2023"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 55,
+      "text": "Emission conversions and calculations use AR6 (updated 2022), EMEP/EEA air pollutant emission inventory guidebook (2019 database), IEA (updated 2023), GLEC Framework (updated 2023), DEFRA (updated 2022) and CEDA6 (updated in 2022).",
+      "confidence": "high",
+      "fact_type": "definition",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "Conversion factors used: AR6 (updated 2022), EMEP/EEA air pollutant emission inventory guidebook (2019 database), IEA (updated 2023), GLEC Framework (updated 2023), DEFRA (updated 2022) and CEDA6 (updated in 2022)."
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 55,
+      "text": "The principles for choosing among the schemes for default conversion factors are: \u2022  The most recent and internationally recognised schemes are preferred \u2022  Specific industry schemes can be included when not in conflict with the above.",
+      "confidence": "high",
+      "fact_type": "definition",
+      "components": [
+        "Choosing principles for conversion factors: prefer the most recent and internationally recognized schemes, or specific industry schemes if not conflicting."
+      ],
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Emission factor for own container shipping operations: not provided",
+      "confidence": "low",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Emission factor for own container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Emission factor for subcontracted container shipping operations: not provided",
+      "confidence": "low",
+      "fact_type": "definition",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Emission factor for subcontracted container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 19,
+      "text": "Emission factor for absolute reduction in scope 1 emissions from own container shipping operations: 35%",
+      "confidence": "medium",
+      "fact_type": "formula",
+      "emission_factor": {
+        "has_factor": true,
+        "factor_value": 35,
+        "factor_unit": "%",
+        "factor_source": null
+      },
+      "components": [
+        "Absolute reduction in total scope 1 emissions",
+        "from own container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q003_refined",
+      "atomic_query_category": "emission_factor",
+      "atomic_question": "Emission factors used in Scope 1 calculations for DEFRA source and their units for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "Scope 1 emissions \u2013 from financially controlled own operations: 79,462 (tonnes CO2e)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [
+        "total Scope 1 emissions",
+        "Scope 1 emissions from financially controlled own operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 tCO2e",
+      "confidence": "high",
+      "fact_type": "claim",
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 20,
+      "text": "79,462 tCO\u2082e (Scope 1 emissions \u2013 from financially controlled own operations)",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "2",
+      "page": 20,
+      "text": "34,138 tCO\u2082e (Scope 1 emissions from Maersk\u2019s ocean operations related to fuel use)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "absolute",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null,
+        "absolute_or_intensity": "absolute"
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "3",
+      "page": 20,
+      "text": "44,938 tCO\u2082e (Scope 2 emissions \u2013 from generation of purchased electricity)",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "other",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": null
+      },
+      "file_name": "maersk-sustainability-report-2023-3.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "scope1_boilers_and_furnaces_tonnesCO2e_2023",
+      "page": 19,
+      "text": "Scope 1: Own operations: 35% Absolute reduction in scope 1 and scope 3 well-to-wake emissions from own container shipping operations",
+      "confidence": "medium",
+      "fact_type": "claim",
+      "citations": [],
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [
+        "Own operations",
+        "Absolute reduction in scope 1 and scope 3 well-to-wake emissions",
+        "own container shipping operations"
+      ],
+      "file_name": "maersk-sustainability-report-2023-1.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    },
+    {
+      "id": "1",
+      "page": 19,
+      "text": "Absolute reduction in total scope 1 emissions: 35%",
+      "confidence": "high",
+      "fact_type": "claim",
+      "emission_factor": {
+        "has_factor": false,
+        "factor_value": null,
+        "factor_unit": null,
+        "factor_source": null
+      },
+      "esrs_target": {
+        "target_type": "GHG reduction",
+        "scope": [
+          "Scope 1"
+        ],
+        "base_year": null,
+        "target_year": null,
+        "reduction_percent": 35,
+        "absolute_or_intensity": "absolute"
+      },
+      "components": [],
+      "file_name": "maersk-sustainability-report-2023-2.pdf",
+      "atomic_query_id": "Q001_refined_2",
+      "atomic_query_category": "emissions_by_source",
+      "atomic_question": "Scope 1 emissions from stationary combustion (boilers and furnaces) in {{unit_candidates}} for {{reporting_year}}"
+    }
+  ]
+}

@@ -8,6 +8,8 @@ unstructured
 tabulate
 numpy
 pandas
+openpyxl
+xlrd
 requests
 rapidfuzz
 pymupdf
