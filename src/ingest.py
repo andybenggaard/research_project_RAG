@@ -82,7 +82,8 @@ def ingest_reports(reports_dir: str, db_dir: str) -> None:
         for rec in pages:
             text = rec.get("text", "")
             if not text.strip():
-                print(f"[WARN] Skipping empty page {rec.get('page')} in {file_path.name}")
+                print(f"[WARN] Skipping EMPTY page {rec.get('page')} in {file_path.name}")
+                print(f"  → Raw text length: {len(text)}, Blocks: {len(rec.get('blocks', []))}")
                 continue
 
             page_chunks = chunk_page(
@@ -127,3 +128,15 @@ def ingest_reports(reports_dir: str, db_dir: str) -> None:
 
     print(f"\n[INFO] Ingestion complete.")
     print(f"[INFO] Total chunks (attempted) stored: {total_chunks}")
+
+
+if __name__ == "__main__":
+    # Default paths
+    REPORTS_DIR = "./reports"
+    DB_DIR = "./data/vectors"
+
+    print("[INFO] Starting ingestion pipeline...")
+    print(f"[INFO] Reports directory: {REPORTS_DIR}")
+    print(f"[INFO] Vector DB directory: {DB_DIR}\n")
+
+    ingest_reports(REPORTS_DIR, DB_DIR)

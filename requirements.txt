@@ -14,3 +14,5 @@ requests
 rapidfuzz
 pymupdf
 rank-bm25
+pytesseract
+Pillow

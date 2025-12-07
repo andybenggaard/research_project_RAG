@@ -13,6 +13,14 @@ from pathlib import Path
 import fitz  # pymupdf
 from typing import List, Dict, Any
 
+# OCR support (optional)
+try:
+    import pytesseract
+    from PIL import Image
+    HAS_OCR = True
+except ImportError:
+    HAS_OCR = False
+
 
 # ---------------------------------------------------------
 # Utility: classify text block type
@@ -109,6 +117,7 @@ def extract_pages(pdf_path: Path) -> List[Dict]:
 
             text = "\n".join(txt).strip()
             if not text:
+                print(f"  [DEBUG] Page {page_index + 1}: Skipping block (no text from {len(b.get('lines', []))} lines)")
                 continue
 
             # Clean text (remove page numbers)
@@ -147,9 +156,24 @@ def extract_pages(pdf_path: Path) -> List[Dict]:
             else:
                 full_text.append(b["text"])
 
+        page_text = "\n\n".join(t for t in full_text if t.strip())
+        print(f"[DEBUG] Page {page_index + 1}: {len(blocks_processed)} blocks → {len(page_text)} chars")
+
+        # OCR fallback for image-based pages
+        if len(page_text) < 50 and HAS_OCR:
+            try:
+                pix = page.get_pixmap(dpi=150)
+                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                ocr_text = pytesseract.image_to_string(img)
+                if len(ocr_text.strip()) > len(page_text):
+                    page_text = ocr_text.strip()
+                    print(f"  [INFO] Page {page_index + 1}: Used OCR ({len(page_text)} chars)")
+            except Exception as e:
+                print(f"  [WARN] OCR failed for page {page_index + 1}: {e}")
+
         pages_out.append({
             "page": page_index + 1,
-            "text": "\n\n".join(t for t in full_text if t.strip()),
+            "text": page_text,
             "blocks": blocks_processed,
             "file_name": pdf_path.name,
             "source_uri": str(pdf_path.resolve())
